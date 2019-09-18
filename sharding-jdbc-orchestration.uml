@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationEncryptDataSourceFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="597.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.connection.CircuitBreakerConnection</node>
+    <node x="351.0" y="375.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationShardingDataSourceFactory</node>
+    <node x="0.0" y="79.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationMasterSlaveDataSource</node>
+    <node x="0.0" y="523.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.resultset.CircuitBreakerResultSetMetaData</node>
+    <node x="0.0" y="375.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.yaml.YamlOrchestrationEncryptRuleConfiguration</node>
+    <node x="0.0" y="227.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.yaml.YamlOrchestrationShardingDataSourceFactory</node>
+    <node x="327.0" y="449.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.statement.CircuitBreakerPreparedStatement</node>
+    <node x="470.0" y="597.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.statement.CircuitBreakerStatement</node>
+    <node x="222.0" y="671.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.util.DataSourceConverter</node>
+    <node x="282.0" y="79.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationEncryptDataSource</node>
+    <node x="0.0" y="153.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.yaml.YamlOrchestrationMasterSlaveDataSourceFactory</node>
+    <node x="0.0" y="301.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.yaml.YamlOrchestrationEncryptDataSourceFactory</node>
+    <node x="0.0" y="671.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.resultset.CircuitBreakerResultSet</node>
+    <node x="364.0" y="227.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.yaml.YamlOrchestrationShardingRuleConfiguration</node>
+    <node x="538.0" y="79.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationShardingDataSource</node>
+    <node x="280.0" y="523.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.metadata.CircuitBreakerDatabaseMetaData</node>
+    <node x="383.0" y="153.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.yaml.YamlOrchestrationMasterSlaveRuleConfiguration</node>
+    <node x="357.0" y="301.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationMasterSlaveDataSourceFactory</node>
+    <node x="235.0" y="597.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.datasource.CircuitBreakerDataSource</node>
+    <node x="0.0" y="449.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationEncryptDataSourceFactory</node>
+    <node x="279.5" y="0.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationMasterSlaveDataSource" target="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource">
+      <point x="0.0" y="-14.5" />
+      <point x="131.0" y="54.0" />
+      <point x="319.6666666666667" y="54.0" />
+      <point x="-80.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationEncryptDataSource" target="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationShardingDataSource" target="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource">
+      <point x="0.0" y="-14.5" />
+      <point x="659.5" y="54.0" />
+      <point x="480.3333333333333" y="54.0" />
+      <point x="80.33333333333331" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

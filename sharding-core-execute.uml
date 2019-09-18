@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.core.execute.ShardingExecuteCallback</OriginalElement>
+  <nodes>
+    <node x="590.0" y="755.0">org.apache.shardingsphere.core.execute.sql.execute.row.QueryRow</node>
+    <node x="0.0" y="607.0">org.apache.shardingsphere.core.execute.ShardingExecutorService</node>
+    <node x="271.0" y="311.0">org.apache.shardingsphere.core.execute.hook.SPISQLExecutionHook</node>
+    <node x="231.0" y="607.0">org.apache.shardingsphere.core.execute.ShardingExecuteEngine</node>
+    <node x="435.0" y="681.0">org.apache.shardingsphere.core.execute.metadata.TableMetaDataLoader</node>
+    <node x="486.0" y="311.0">org.apache.shardingsphere.core.execute.hook.SPIRootInvokeHook</node>
+    <node x="0.0" y="459.0">org.apache.shardingsphere.core.execute.ShardingThreadFactoryBuilder</node>
+    <node x="210.0" y="755.0">org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteTemplate</node>
+    <node x="280.5" y="232.0">org.apache.shardingsphere.core.execute.hook.SQLExecutionHook</node>
+    <node x="0.0" y="533.0">org.apache.shardingsphere.core.execute.sql.execute.threadlocal.ExecutorExceptionHandler</node>
+    <node x="38.0" y="79.0">org.apache.shardingsphere.core.execute.sql.execute.result.DistinctQueryResult</node>
+    <node x="0.0" y="158.0">org.apache.shardingsphere.core.execute.sql.execute.result.AggregationDistinctQueryResult</node>
+    <node x="476.0" y="533.0">org.apache.shardingsphere.core.execute.ShardingExecuteCallback</node>
+    <node x="417.0" y="755.0">org.apache.shardingsphere.core.execute.sql.execute.result.QueryResultUtil</node>
+    <node x="220.0" y="681.0">org.apache.shardingsphere.core.execute.StatementExecuteUnit</node>
+    <node x="264.0" y="459.0">org.apache.shardingsphere.core.execute.sql.prepare.SQLExecutePrepareTemplate</node>
+    <node x="518.0" y="459.0">org.apache.shardingsphere.core.execute.sql.prepare.SQLExecutePrepareCallback</node>
+    <node x="495.5" y="232.0">org.apache.shardingsphere.core.execute.hook.RootInvokeHook</node>
+    <node x="236.5" y="0.0">org.apache.shardingsphere.core.execute.sql.execute.result.QueryResult</node>
+    <node x="212.0" y="79.0">org.apache.shardingsphere.core.execute.sql.execute.result.MemoryQueryResult</node>
+    <node x="388.0" y="79.0">org.apache.shardingsphere.core.execute.sql.execute.result.StreamQueryResult</node>
+    <node x="454.0" y="607.0">org.apache.shardingsphere.core.execute.metadata.TableMetaDataInitializer</node>
+    <node x="0.0" y="755.0">org.apache.shardingsphere.core.execute.sql.execute.result.QueryResultMetaData</node>
+    <node x="241.0" y="533.0">org.apache.shardingsphere.core.execute.ShardingExecuteDataMap</node>
+    <node x="0.0" y="385.0">org.apache.shardingsphere.core.execute.sql.execute.result.AggregationDistinctQueryMetaData</node>
+    <node x="295.0" y="385.0">org.apache.shardingsphere.core.execute.metadata.TableMetaDataConnectionManager</node>
+    <node x="34.5" y="311.0">org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteCallback</node>
+    <node x="0.0" y="681.0">org.apache.shardingsphere.core.execute.ShardingExecuteGroup</node>
+    <node x="0.0" y="232.0">org.apache.shardingsphere.core.execute.ShardingGroupExecuteCallback</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.core.execute.hook.SPIRootInvokeHook" target="org.apache.shardingsphere.core.execute.hook.RootInvokeHook">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.execute.sql.execute.result.StreamQueryResult" target="org.apache.shardingsphere.core.execute.sql.execute.result.QueryResult">
+      <point x="0.0" y="-14.5" />
+      <point x="463.0" y="54.0" />
+      <point x="325.66666666666663" y="54.0" />
+      <point x="35.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.execute.sql.execute.result.DistinctQueryResult" target="org.apache.shardingsphere.core.execute.sql.execute.result.QueryResult">
+      <point x="0.0" y="-14.5" />
+      <point x="115.0" y="54.0" />
+      <point x="254.33333333333334" y="54.0" />
+      <point x="-35.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteCallback" target="org.apache.shardingsphere.core.execute.ShardingGroupExecuteCallback">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.execute.sql.execute.result.AggregationDistinctQueryResult" target="org.apache.shardingsphere.core.execute.sql.execute.result.DistinctQueryResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.execute.hook.SPISQLExecutionHook" target="org.apache.shardingsphere.core.execute.hook.SQLExecutionHook">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.execute.sql.execute.result.MemoryQueryResult" target="org.apache.shardingsphere.core.execute.sql.execute.result.QueryResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="93.5" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

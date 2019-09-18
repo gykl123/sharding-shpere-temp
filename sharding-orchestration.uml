@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationEncryptDataSourceFactory</OriginalElement>
+  <nodes>
+    <node x="882.5" y="415.0">org.apache.shardingsphere.orchestration.reg.api.RegistryCenter</node>
+    <node x="790.0" y="1086.0">org.apache.shardingsphere.orchestration.internal.registry.ShardingOrchestrationFacade</node>
+    <node x="864.0" y="938.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.resultset.CircuitBreakerResultSetMetaData</node>
+    <node x="1720.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.MasterSlaveRuleChangedEvent</node>
+    <node x="760.0" y="568.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.yaml.YamlOrchestrationShardingDataSourceFactory</node>
+    <node x="528.0" y="1086.0">org.apache.shardingsphere.orchestration.internal.rule.OrchestrationMasterSlaveRule</node>
+    <node x="0.0" y="1382.0">org.apache.shardingsphere.orchestration.reg.listener.DataChangedEvent</node>
+    <node x="397.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.AuthenticationChangedEvent</node>
+    <node x="499.0" y="158.0">org.apache.shardingsphere.orchestration.internal.registry.config.listener.SchemaChangedListener</node>
+    <node x="0.0" y="568.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.yaml.YamlOrchestrationMasterSlaveDataSourceFactory</node>
+    <node x="1117.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.PropertiesChangedEvent</node>
+    <node x="265.0" y="1086.0">org.apache.shardingsphere.orchestration.yaml.config.YamlDataSourceConfiguration</node>
+    <node x="530.0" y="1382.0">org.apache.shardingsphere.orchestration.internal.registry.state.node.StateNode</node>
+    <node x="645.0" y="1308.0">org.apache.shardingsphere.orchestration.internal.registry.config.service.ConfigurationService</node>
+    <node x="1322.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.SchemaAddedEvent</node>
+    <node x="720.0" y="1234.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.datasource.CircuitBreakerDataSource</node>
+    <node x="1106.0" y="232.0">org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent</node>
+    <node x="703.0" y="158.0">org.apache.shardingsphere.orchestration.internal.registry.config.listener.AuthenticationChangedListener</node>
+    <node x="507.0" y="1160.0">org.apache.shardingsphere.orchestration.config.OrchestrationConfiguration</node>
+    <node x="240.0" y="158.0">org.apache.shardingsphere.orchestration.internal.registry.state.listener.DataSourceStateChangedListener</node>
+    <node x="260.5" y="415.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource</node>
+    <node x="480.5" y="0.0">org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationListener</node>
+    <node x="0.0" y="790.0">org.apache.shardingsphere.orchestration.yaml.swapper.OrchestrationConfigurationYamlSwapper</node>
+    <node x="485.0" y="1234.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.connection.CircuitBreakerConnection</node>
+    <node x="0.0" y="1234.0">org.apache.shardingsphere.orchestration.internal.rule.OrchestrationShardingRule</node>
+    <node x="519.0" y="494.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationMasterSlaveDataSource</node>
+    <node x="2188.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.state.event.CircuitStateChangedEvent</node>
+    <node x="0.0" y="716.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.yaml.YamlOrchestrationEncryptRuleConfiguration</node>
+    <node x="1962.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.state.event.DisabledStateChangedEvent</node>
+    <node x="657.0" y="790.0">org.apache.shardingsphere.orchestration.internal.registry.config.listener.ConfigurationChangedListenerManager</node>
+    <node x="254.0" y="1160.0">org.apache.shardingsphere.orchestration.reg.api.RegistryCenterConfiguration</node>
+    <node x="436.0" y="1308.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.util.DataSourceConverter</node>
+    <node x="754.0" y="1160.0">org.apache.shardingsphere.orchestration.reg.listener.DataChangedEventListener</node>
+    <node x="279.0" y="1012.0">org.apache.shardingsphere.orchestration.yaml.config.YamlOrchestrationConfiguration</node>
+    <node x="0.0" y="642.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.yaml.YamlOrchestrationShardingRuleConfiguration</node>
+    <node x="383.0" y="568.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.yaml.YamlOrchestrationMasterSlaveRuleConfiguration</node>
+    <node x="449.0" y="79.0">org.apache.shardingsphere.orchestration.internal.registry.listener.PostShardingOrchestrationEventListener</node>
+    <node x="556.0" y="1012.0">org.apache.shardingsphere.orchestration.internal.eventbus.ShardingOrchestrationEventBus</node>
+    <node x="635.0" y="864.0">org.apache.shardingsphere.orchestration.internal.registry.state.schema.OrchestrationShardingSchemaGroup</node>
+    <node x="377.0" y="1382.0">org.apache.shardingsphere.orchestration.internal.registry.state.service.StateService</node>
+    <node x="630.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.IgnoredShardingOrchestrationEvent</node>
+    <node x="243.0" y="1234.0">org.apache.shardingsphere.orchestration.internal.keygen.LeafSegmentKeyGenerator</node>
+    <node x="222.0" y="1308.0">org.apache.shardingsphere.orchestration.internal.registry.state.instance.OrchestrationInstance</node>
+    <node x="195.0" y="1382.0">org.apache.shardingsphere.orchestration.internal.registry.state.node.StateNodeStatus</node>
+    <node x="832.0" y="1012.0">org.apache.shardingsphere.orchestration.internal.registry.state.listener.StateChangedListenerManager</node>
+    <node x="672.0" y="1382.0">org.apache.shardingsphere.orchestration.internal.util.IpUtils</node>
+    <node x="319.0" y="864.0">org.apache.shardingsphere.orchestration.yaml.swapper.DataSourceConfigurationYamlSwapper</node>
+    <node x="904.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.DataSourceChangedEvent</node>
+    <node x="358.0" y="642.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.yaml.YamlOrchestrationEncryptDataSourceFactory</node>
+    <node x="299.0" y="938.0">org.apache.shardingsphere.orchestration.yaml.config.YamlRegistryCenterConfiguration</node>
+    <node x="0.0" y="1308.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.resultset.CircuitBreakerResultSet</node>
+    <node x="950.0" y="158.0">org.apache.shardingsphere.orchestration.internal.registry.config.listener.PropertiesChangedListener</node>
+    <node x="351.0" y="716.0">org.apache.shardingsphere.orchestration.yaml.swapper.RegistryCenterConfigurationYamlSwapper</node>
+    <node x="1497.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.ShardingRuleChangedEvent</node>
+    <node x="330.0" y="790.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationEncryptDataSourceFactory</node>
+    <node x="0.0" y="1086.0">org.apache.shardingsphere.orchestration.internal.registry.state.schema.OrchestrationShardingSchema</node>
+    <node x="0.0" y="938.0">org.apache.shardingsphere.orchestration.reg.zookeeper.curator.CuratorZookeeperExceptionHandler</node>
+    <node x="826.0" y="494.0">org.apache.shardingsphere.orchestration.reg.zookeeper.curator.CuratorZookeeperRegistryCenter</node>
+    <node x="687.0" y="716.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationShardingDataSourceFactory</node>
+    <node x="582.0" y="938.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.statement.CircuitBreakerPreparedStatement</node>
+    <node x="955.0" y="1234.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.statement.CircuitBreakerStatement</node>
+    <node x="216.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.SchemaDeletedEvent</node>
+    <node x="263.0" y="494.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationEncryptDataSource</node>
+    <node x="0.0" y="864.0">org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationListenerManager</node>
+    <node x="0.0" y="341.0">org.apache.shardingsphere.orchestration.internal.registry.config.event.EncryptRuleChangedEvent</node>
+    <node x="0.0" y="1012.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.circuit.metadata.CircuitBreakerDatabaseMetaData</node>
+    <node x="0.0" y="494.0">org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationShardingDataSource</node>
+    <node x="0.0" y="158.0">org.apache.shardingsphere.orchestration.internal.registry.state.listener.InstanceStateChangedListener</node>
+    <node x="715.0" y="642.0">org.apache.shardingsphere.shardingjdbc.orchestration.api.OrchestrationMasterSlaveDataSourceFactory</node>
+    <node x="0.0" y="1160.0">org.apache.shardingsphere.orchestration.internal.registry.RegistryCenterServiceLoader</node>
+    <node x="851.0" y="1308.0">org.apache.shardingsphere.orchestration.internal.registry.config.node.ConfigurationNode</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.MasterSlaveRuleChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="1831.0" y="301.0" />
+      <point x="1265.9545454545455" y="301.0" />
+      <point x="56.454545454545496" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.listener.PropertiesChangedListener" target="org.apache.shardingsphere.orchestration.internal.registry.listener.PostShardingOrchestrationEventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="1049.5" y="128.0" />
+      <point x="704.6" y="128.0" />
+      <point x="113.60000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.state.event.CircuitStateChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="2285.0" y="281.0" />
+      <point x="1303.590909090909" y="281.0" />
+      <point x="94.09090909090901" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.state.listener.DataSourceStateChangedListener" target="org.apache.shardingsphere.orchestration.internal.registry.listener.PostShardingOrchestrationEventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="359.5" y="138.0" />
+      <point x="534.2" y="138.0" />
+      <point x="-56.80000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.SchemaDeletedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="296.5" y="291.0" />
+      <point x="1134.2272727272727" y="291.0" />
+      <point x="-75.27272727272725" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.state.listener.InstanceStateChangedListener" target="org.apache.shardingsphere.orchestration.internal.registry.listener.PostShardingOrchestrationEventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="110.0" y="128.0" />
+      <point x="477.4" y="128.0" />
+      <point x="-113.60000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.DataSourceChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="1000.5" y="321.0" />
+      <point x="1190.6818181818182" y="321.0" />
+      <point x="-18.818181818181756" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.PropertiesChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.IgnoredShardingOrchestrationEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="757.0" y="311.0" />
+      <point x="1171.8636363636363" y="311.0" />
+      <point x="-37.63636363636374" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.AuthenticationChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="503.5" y="301.0" />
+      <point x="1153.0454545454545" y="301.0" />
+      <point x="-56.454545454545496" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.state.event.DisabledStateChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="2065.0" y="291.0" />
+      <point x="1284.7727272727273" y="291.0" />
+      <point x="75.27272727272725" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationShardingDataSource" target="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource">
+      <point x="0.0" y="-14.5" />
+      <point x="121.5" y="469.0" />
+      <point x="300.6666666666667" y="469.0" />
+      <point x="-80.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationMasterSlaveDataSource" target="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource">
+      <point x="0.0" y="-14.5" />
+      <point x="650.0" y="469.0" />
+      <point x="461.3333333333333" y="469.0" />
+      <point x="80.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.listener.AuthenticationChangedListener" target="org.apache.shardingsphere.orchestration.internal.registry.listener.PostShardingOrchestrationEventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="816.5" y="138.0" />
+      <point x="647.8" y="138.0" />
+      <point x="56.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.EncryptRuleChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="98.0" y="281.0" />
+      <point x="1115.409090909091" y="281.0" />
+      <point x="-94.09090909090901" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.OrchestrationEncryptDataSource" target="org.apache.shardingsphere.shardingjdbc.orchestration.internal.datasource.AbstractOrchestrationDataSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.SchemaAddedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="1399.5" y="321.0" />
+      <point x="1228.3181818181818" y="321.0" />
+      <point x="18.818181818181756" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.listener.PostShardingOrchestrationEventListener" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.listener.SchemaChangedListener" target="org.apache.shardingsphere.orchestration.internal.registry.listener.PostShardingOrchestrationEventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.internal.registry.config.event.ShardingRuleChangedEvent" target="org.apache.shardingsphere.orchestration.internal.registry.listener.ShardingOrchestrationEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="1598.5" y="311.0" />
+      <point x="1247.1363636363635" y="311.0" />
+      <point x="37.63636363636351" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.orchestration.reg.zookeeper.curator.CuratorZookeeperRegistryCenter" target="org.apache.shardingsphere.orchestration.reg.api.RegistryCenter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.0" y="15.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

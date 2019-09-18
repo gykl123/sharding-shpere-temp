@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.api.config.RuleConfiguration</OriginalElement>
+  <nodes>
+    <node x="429.0" y="923.0">org.apache.shardingsphere.api.config.masterslave.MasterSlaveRuleConfiguration</node>
+    <node x="267.0" y="770.0">org.apache.shardingsphere.api.config.encrypt.EncryptorRuleConfiguration</node>
+    <node x="277.0" y="311.0">org.apache.shardingsphere.api.config.sharding.strategy.ComplexShardingStrategyConfiguration</node>
+    <node x="295.0" y="997.0">org.apache.shardingsphere.spi.database.DatabaseType</node>
+    <node x="249.99999999999997" y="464.0">org.apache.shardingsphere.api.sharding.hint.HintShardingAlgorithm</node>
+    <node x="33.5" y="997.0">org.apache.shardingsphere.spi.database.DataSourceMetaData</node>
+    <node x="477.0" y="79.0">org.apache.shardingsphere.spi.keygen.ShardingKeyGenerator</node>
+    <node x="213.0" y="79.0">org.apache.shardingsphere.spi.masterslave.MasterSlaveLoadBalanceAlgorithm</node>
+    <node x="443.0" y="464.0">org.apache.shardingsphere.api.sharding.standard.PreciseShardingAlgorithm</node>
+    <node x="178.99999999999997" y="617.0">org.apache.shardingsphere.api.sharding.complex.ComplexKeysShardingValue</node>
+    <node x="1150.0" y="311.0">org.apache.shardingsphere.api.config.sharding.strategy.HintShardingStrategyConfiguration</node>
+    <node x="45.0" y="79.0">org.apache.shardingsphere.spi.encrypt.ShardingEncryptor</node>
+    <node x="364.0" y="385.0">org.apache.shardingsphere.api.sharding.ShardingAlgorithm</node>
+    <node x="491.0" y="770.0">org.apache.shardingsphere.api.config.sharding.KeyGeneratorConfiguration</node>
+    <node x="318.25" y="538.0">org.apache.shardingsphere.api.sharding.ShardingValue</node>
+    <node x="602.0" y="232.0">org.apache.shardingsphere.api.config.sharding.strategy.ShardingStrategyConfiguration</node>
+    <node x="481.0" y="997.0">org.apache.shardingsphere.api.config.encrypt.EncryptColumnRuleConfiguration</node>
+    <node x="874.0" y="311.0">org.apache.shardingsphere.api.config.sharding.strategy.InlineShardingStrategyConfiguration</node>
+    <node x="269.0" y="1150.0">org.apache.shardingsphere.api.config.sharding.TableRuleConfiguration</node>
+    <node x="711.0" y="1150.0">org.apache.shardingsphere.api.hint.HintManager</node>
+    <node x="654.0" y="464.0">org.apache.shardingsphere.api.sharding.standard.RangeShardingAlgorithm</node>
+    <node x="403.0" y="617.0">org.apache.shardingsphere.api.sharding.hint.HintShardingValue</node>
+    <node x="570.0" y="617.0">org.apache.shardingsphere.api.sharding.standard.PreciseShardingValue</node>
+    <node x="0.0" y="1076.0">org.apache.shardingsphere.spi.database.MemorizedDataSourceMetaData</node>
+    <node x="490.0" y="1150.0">org.apache.shardingsphere.spi.DatabaseTypeAwareSPI</node>
+    <node x="0.0" y="1150.0">org.apache.shardingsphere.api.config.encrypt.EncryptTableRuleConfiguration</node>
+    <node x="211.0" y="923.0">org.apache.shardingsphere.api.config.sharding.ShardingRuleConfiguration</node>
+    <node x="0.0" y="923.0">org.apache.shardingsphere.api.config.encrypt.EncryptRuleConfiguration</node>
+    <node x="574.0" y="311.0">org.apache.shardingsphere.api.config.sharding.strategy.StandardShardingStrategyConfiguration</node>
+    <node x="0.0" y="311.0">org.apache.shardingsphere.api.config.sharding.strategy.NoneShardingStrategyConfiguration</node>
+    <node x="275.5" y="0.0">org.apache.shardingsphere.spi.TypeBasedSPI</node>
+    <node x="0.0" y="770.0">org.apache.shardingsphere.api.config.masterslave.LoadBalanceStrategyConfiguration</node>
+    <node x="0.0" y="617.0">org.apache.shardingsphere.api.sharding.standard.RangeShardingValue</node>
+    <node x="0.0" y="464.0">org.apache.shardingsphere.api.sharding.complex.ComplexKeysShardingAlgorithm</node>
+    <node x="238.5" y="844.0">org.apache.shardingsphere.api.config.RuleConfiguration</node>
+    <node x="0.0" y="158.0">org.apache.shardingsphere.spi.encrypt.ShardingQueryAssistedEncryptor</node>
+    <node x="273.0" y="1076.0">org.apache.shardingsphere.spi.database.BranchDatabaseType</node>
+    <node x="267.0" y="691.0">org.apache.shardingsphere.api.config.TypeBasedSPIConfiguration</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.api.config.encrypt.EncryptRuleConfiguration" target="org.apache.shardingsphere.api.config.RuleConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="95.5" y="898.0" />
+      <point x="262.3333333333333" y="898.0" />
+      <point x="-47.666666666666664" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.spi.database.MemorizedDataSourceMetaData" target="org.apache.shardingsphere.spi.database.DataSourceMetaData">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.sharding.strategy.StandardShardingStrategyConfiguration" target="org.apache.shardingsphere.api.config.sharding.strategy.ShardingStrategyConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.sharding.strategy.InlineShardingStrategyConfiguration" target="org.apache.shardingsphere.api.config.sharding.strategy.ShardingStrategyConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="1002.0" y="291.0" />
+      <point x="758.8" y="291.0" />
+      <point x="44.80000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.sharding.ShardingRuleConfiguration" target="org.apache.shardingsphere.api.config.RuleConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.encrypt.EncryptorRuleConfiguration" target="org.apache.shardingsphere.api.config.TypeBasedSPIConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.complex.ComplexKeysShardingAlgorithm" target="org.apache.shardingsphere.api.sharding.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="115.0" y="434.0" />
+      <point x="382.375" y="434.0" />
+      <point x="-55.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.masterslave.MasterSlaveRuleConfiguration" target="org.apache.shardingsphere.api.config.RuleConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="537.5" y="898.0" />
+      <point x="357.66666666666663" y="898.0" />
+      <point x="47.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.spi.masterslave.MasterSlaveLoadBalanceAlgorithm" target="org.apache.shardingsphere.spi.TypeBasedSPI">
+      <point x="0.0" y="-14.5" />
+      <point x="-7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.spi.encrypt.ShardingQueryAssistedEncryptor" target="org.apache.shardingsphere.spi.encrypt.ShardingEncryptor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.spi.keygen.ShardingKeyGenerator" target="org.apache.shardingsphere.spi.TypeBasedSPI">
+      <point x="0.0" y="-14.5" />
+      <point x="563.0" y="54.0" />
+      <point x="374.66666666666663" y="54.0" />
+      <point x="39.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.sharding.strategy.NoneShardingStrategyConfiguration" target="org.apache.shardingsphere.api.config.sharding.strategy.ShardingStrategyConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="128.5" y="281.0" />
+      <point x="624.4" y="281.0" />
+      <point x="-89.6" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.standard.RangeShardingValue" target="org.apache.shardingsphere.api.sharding.ShardingValue">
+      <point x="0.0" y="-14.5" />
+      <point x="79.5" y="587.0" />
+      <point x="333.375" y="587.0" />
+      <point x="-45.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.sharding.strategy.ComplexShardingStrategyConfiguration" target="org.apache.shardingsphere.api.config.sharding.strategy.ShardingStrategyConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="415.5" y="291.0" />
+      <point x="669.2" y="291.0" />
+      <point x="-44.8" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.standard.PreciseShardingAlgorithm" target="org.apache.shardingsphere.api.sharding.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="538.5" y="444.0" />
+      <point x="455.875" y="444.0" />
+      <point x="18.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.sharding.KeyGeneratorConfiguration" target="org.apache.shardingsphere.api.config.TypeBasedSPIConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="592.0" y="745.0" />
+      <point x="437.0" y="745.0" />
+      <point x="68.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.spi.database.BranchDatabaseType" target="org.apache.shardingsphere.spi.database.DatabaseType">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.hint.HintShardingValue" target="org.apache.shardingsphere.api.sharding.ShardingValue">
+      <point x="0.0" y="-14.5" />
+      <point x="476.5" y="597.0" />
+      <point x="393.875" y="597.0" />
+      <point x="15.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.spi.encrypt.ShardingEncryptor" target="org.apache.shardingsphere.spi.TypeBasedSPI">
+      <point x="0.0" y="-14.5" />
+      <point x="119.0" y="54.0" />
+      <point x="295.3333333333333" y="54.0" />
+      <point x="-39.666666666666664" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.masterslave.LoadBalanceStrategyConfiguration" target="org.apache.shardingsphere.api.config.TypeBasedSPIConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="123.5" y="745.0" />
+      <point x="301.0" y="745.0" />
+      <point x="-68.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.complex.ComplexKeysShardingValue" target="org.apache.shardingsphere.api.sharding.ShardingValue">
+      <point x="0.0" y="-14.5" />
+      <point x="281.0" y="597.0" />
+      <point x="363.625" y="597.0" />
+      <point x="-15.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.hint.HintShardingAlgorithm" target="org.apache.shardingsphere.api.sharding.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="336.5" y="444.0" />
+      <point x="419.125" y="444.0" />
+      <point x="-18.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.standard.PreciseShardingValue" target="org.apache.shardingsphere.api.sharding.ShardingValue">
+      <point x="0.0" y="-14.5" />
+      <point x="652.5" y="587.0" />
+      <point x="424.125" y="587.0" />
+      <point x="45.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.config.sharding.strategy.HintShardingStrategyConfiguration" target="org.apache.shardingsphere.api.config.sharding.strategy.ShardingStrategyConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="1275.0" y="281.0" />
+      <point x="803.6" y="281.0" />
+      <point x="89.60000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.api.sharding.standard.RangeShardingAlgorithm" target="org.apache.shardingsphere.api.sharding.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="746.5" y="434.0" />
+      <point x="492.625" y="434.0" />
+      <point x="55.125" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="71.5" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

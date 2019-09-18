@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.core.parse.SQLParseEngine</OriginalElement>
+  <nodes>
+    <node x="1631.2071428571448" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.item.ShorthandSelectItemSegment</node>
+    <node x="7652.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.table.TablesExtractor</node>
+    <node x="2482.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.SelectItemExtractor</node>
+    <node x="1560.0" y="1655.0">org.apache.shardingsphere.core.parse.MySQLParserEntry</node>
+    <node x="2046.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.TopSelectItemExtractor</node>
+    <node x="1132.5" y="1576.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.RuleDefinitionEntity</node>
+    <node x="1671.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.postgresql.SetStatement</node>
+    <node x="316.6238095238118" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.SubquerySegment</node>
+    <node x="2956.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.SelectItemsExtractor</node>
+    <node x="2166.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowTablesStatement</node>
+    <node x="4698.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.column.ColumnExtractor</node>
+    <node x="4714.111547619046" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.NumberLiteralLimitValueSegment</node>
+    <node x="1581.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.DropColumnDefinitionFiller</node>
+    <node x="6191.75" y="918.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.AscNullOrderDirectionOrderByExtractor</node>
+    <node x="5612.117647058823" y="531.0">org.apache.shardingsphere.core.parse.core.extractor.api.SQLSegmentExtractor</node>
+    <node x="5073.291666666667" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dml.DeleteStatement</node>
+    <node x="2571.25" y="918.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.AscNullOrderDirectionGroupByExtractor</node>
+    <node x="7442.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.TableReferencesExtractor</node>
+    <node x="235.0" y="1729.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.statement.SQLStatementRuleEntity</node>
+    <node x="2068.0" y="1729.0">org.apache.shardingsphere.core.parse.core.constant.AggregationType</node>
+    <node x="737.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dml.InsertColumnsFiller</node>
+    <node x="9012.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.OrderByItemExtractor</node>
+    <node x="935.0000000000002" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.tcl.SetAutoCommitStatement</node>
+    <node x="5849.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.insert.OnDuplicateKeyColumnsExtractor</node>
+    <node x="4663.375" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.dml.DMLStatement</node>
+    <node x="3053.075" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.generic.SchemaSegment</node>
+    <node x="1335.4571428571448" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.item.AggregationSelectItemSegment</node>
+    <node x="2663.075" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.OrPredicateSegment</node>
+    <node x="968.0" y="1803.0">org.apache.shardingsphere.core.parse.core.parser.SQLAST</node>
+    <node x="6199.00392857143" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dal.FromSchemaSegment</node>
+    <node x="5887.75" y="918.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.DescNullOrderDirectionOrderByExtractor</node>
+    <node x="6583.199999999999" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.ColumnOrderByItemSegment</node>
+    <node x="2787.0" y="1729.0">org.apache.shardingsphere.core.parse.core.SQLParseKernel</node>
+    <node x="3284.075" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateCompareRightValue</node>
+    <node x="175.0" y="1803.0">org.apache.shardingsphere.core.parse.core.constant.OrderDirection</node>
+    <node x="5106.457142857144" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.ParameterMarkerPaginationValueSegment</node>
+    <node x="1147.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowColumnsStatement</node>
+    <node x="481.6238095238118" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.LiteralExpressionSegment</node>
+    <node x="2086.0" y="1576.0">org.apache.shardingsphere.core.parse.core.extractor.SQLSegmentsExtractorEngine</node>
+    <node x="6938.5" y="918.0">org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLModifyColumnDefinitionExtractor</node>
+    <node x="6110.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.OrderByExtractor</node>
+    <node x="2577.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowDatabasesStatement</node>
+    <node x="1218.0" y="1803.0">org.apache.shardingsphere.core.parse.core.constant.Paren</node>
+    <node x="2226.075" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.ModifyColumnDefinitionSegment</node>
+    <node x="2480.075" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.tcl.AutoCommitSegment</node>
+    <node x="4213.561474358974" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.ddl.DDLStatement</node>
+    <node x="5853.25392857143" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.order.OrderBySegment</node>
+    <node x="1182.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.update.AssignmentExtractor</node>
+    <node x="3131.075" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.column.ColumnSegment</node>
+    <node x="6480.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.dal.MySQLFromSchemaExtractor</node>
+    <node x="3995.9701442307696" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentAvailable</node>
+    <node x="3777.0000000000005" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.generic.IndexSegmentAvailable</node>
+    <node x="3637.0000000000005" y="992.0">org.apache.shardingsphere.core.parse.sql.statement.SQLStatement</node>
+    <node x="1820.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.FunctionSelectItemExtractor</node>
+    <node x="3315.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowOtherStatement</node>
+    <node x="87.62380952381181" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.CommonExpressionSegment</node>
+    <node x="180.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dml.SelectItemsFiller</node>
+    <node x="4913.291666666667" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dml.UpdateStatement</node>
+    <node x="4569.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.ddl.DropTableStatement</node>
+    <node x="3464.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateRightValue</node>
+    <node x="3814.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.schema.SchemaExtractor</node>
+    <node x="6736.582142857145" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.assignment.AssignmentSegment</node>
+    <node x="168.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLChangeColumnDefinitionExtractor</node>
+    <node x="7917.5" y="610.0">org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor</node>
+    <node x="6332.199999999999" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.ExpressionOrderByItemSegment</node>
+    <node x="2872.25" y="918.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.DescNullOrderDirectionGroupByExtractor</node>
+    <node x="1313.0" y="1729.0">org.apache.shardingsphere.core.parse.core.rule.registry.statement.SQLStatementRule</node>
+    <node x="3180.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.SetStatement</node>
+    <node x="2792.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.GroupByExtractor</node>
+    <node x="1797.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.ModifyColumnDefinitionFiller</node>
+    <node x="3637.0000000000005" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.dcl.DCLStatement</node>
+    <node x="5651.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.insert.InsertColumnsExtractor</node>
+    <node x="769.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.tcl.RollbackStatement</node>
+    <node x="3833.378928571431" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateBetweenRightValue</node>
+    <node x="473.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLColumnPositionExtractor</node>
+    <node x="1078.2071428571448" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemSegment</node>
+    <node x="593.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.tcl.SavepointStatement</node>
+    <node x="2251.0" y="1729.0">org.apache.shardingsphere.core.parse.core.parser.SQLParserEngine</node>
+    <node x="4064.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.ddl.DropIndexStatement</node>
+    <node x="6173.25392857143" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.generic.RemoveAvailable</node>
+    <node x="0.0" y="1803.0">org.apache.shardingsphere.core.parse.core.constant.QuoteCharacter</node>
+    <node x="5786.199999999999" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnAfterPositionSegment</node>
+    <node x="1154.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.TableFiller</node>
+    <node x="7964.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.index.IndexesExtractor</node>
+    <node x="3344.0" y="610.0">org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor</node>
+    <node x="1773.8407142857134" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.assignment.InsertValuesSegment</node>
+    <node x="1569.0" y="1576.0">org.apache.shardingsphere.core.parse.spi.SQLParserEntry</node>
+    <node x="1104.0" y="1655.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.extractor.ExtractorRuleDefinitionEntity</node>
+    <node x="2841.075" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.ColumnDefinitionSegment</node>
+    <node x="303.0" y="1655.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.filler.FillerRuleDefinitionEntityLoader</node>
+    <node x="317.0" y="1576.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.RuleDefinitionEntityLoader</node>
+    <node x="0.0" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.order.GroupBySegment</node>
+    <node x="973.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.update.SetAssignmentsExtractor</node>
+    <node x="2434.0" y="1729.0">org.apache.shardingsphere.core.parse.SQLParseEngine</node>
+    <node x="2355.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowTableStatusStatement</node>
+    <node x="1583.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.ShorthandSelectItemExtractor</node>
+    <node x="462.0" y="1729.0">org.apache.shardingsphere.core.parse.SQLParseEngineFactory</node>
+    <node x="3135.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.WhereExtractor</node>
+    <node x="1395.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.ColumnDefinitionFiller</node>
+    <node x="2612.0" y="1729.0">org.apache.shardingsphere.core.parse.core.constant.LogicalOperator</node>
+    <node x="3450.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.constraint.OutlinePrimaryKeyExtractor</node>
+    <node x="3610.5000000000005" y="1071.0">org.apache.shardingsphere.core.parse.sql.statement.generic.AbstractSQLStatement</node>
+    <node x="4747.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dml.SelectStatement</node>
+    <node x="5097.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.WhereSegment</node>
+    <node x="7801.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.column.ColumnsExtractor</node>
+    <node x="3471.894642857145" y="0.0">org.apache.shardingsphere.core.parse.sql.segment.SQLSegment</node>
+    <node x="686.0" y="1729.0">org.apache.shardingsphere.core.parse.core.rule.registry.extractor.ExtractorRuleDefinition</node>
+    <node x="2348.0" y="1576.0">org.apache.shardingsphere.core.parse.core.rule.registry.statement.SQLStatementRuleDefinition</node>
+    <node x="1955.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.postgresql.ResetParameterStatement</node>
+    <node x="843.0" y="1655.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.statement.SQLStatementRuleDefinitionEntity</node>
+    <node x="3514.075" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateInRightValue</node>
+    <node x="1267.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dal.SchemaFiller</node>
+    <node x="2190.5000000000005" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement</node>
+    <node x="0.0" y="1655.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.statement.SQLStatementRuleDefinitionEntityLoader</node>
+    <node x="6472.949999999999" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.TextOrderByItemSegment</node>
+    <node x="450.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dml.InsertValuesFiller</node>
+    <node x="905.0" y="1729.0">org.apache.shardingsphere.core.parse.cache.SQLParseResultCache</node>
+    <node x="5173.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.ColumnDefinitionExtractor</node>
+    <node x="330.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dml.WhereFiller</node>
+    <node x="3284.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.PredicateExtractor</node>
+    <node x="3844.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.LimitSegment</node>
+    <node x="0.0" y="1729.0">org.apache.shardingsphere.core.parse.core.filler.SQLStatementFillerEngine</node>
+    <node x="6682.949999999999" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.IndexOrderByItemSegment</node>
+    <node x="563.5524358974362" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement</node>
+    <node x="1350.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.UseStatement</node>
+    <node x="722.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLDropPrimaryKeyExtractor</node>
+    <node x="5449.25392857143" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.RenameColumnSegment</node>
+    <node x="1095.0" y="1803.0">org.apache.shardingsphere.core.parse.util.SQLUtil</node>
+    <node x="5650.25392857143" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnPositionSegment</node>
+    <node x="1364.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.ColumnSelectItemExtractor</node>
+    <node x="6010.25392857143" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.PredicateSegment</node>
+    <node x="906.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dml.GroupByFiller</node>
+    <node x="1752.0" y="1655.0">org.apache.shardingsphere.core.parse.hook.SPIParsingHook</node>
+    <node x="4185.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.impl.ParameterMarkerExpressionExtractor</node>
+    <node x="671.0" y="1803.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.AndPredicate</node>
+    <node x="1976.5749999999998" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.generic.OwnerAvailable</node>
+    <node x="1117.0" y="1729.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.extractor.ExtractorRuleEntity</node>
+    <node x="4634.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.column.OnDuplicateKeyColumnsSegment</node>
+    <node x="606.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dml.OrderByFiller</node>
+    <node x="5031.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.index.IndexExtractor</node>
+    <node x="830.0" y="1803.0">org.apache.shardingsphere.core.parse.core.extractor.util.RuleName</node>
+    <node x="1865.2071428571448" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.generic.TableSegment</node>
+    <node x="4892.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.PaginationValueSegment</node>
+    <node x="692.6238095238118" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.ParameterMarkerExpressionSegment</node>
+    <node x="1881.0" y="1729.0">org.apache.shardingsphere.core.parse.core.rule.registry.ParseRuleRegistry</node>
+    <node x="6711.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.tcl.MySQLSetAutoCommitExtractor</node>
+    <node x="2025.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.AddColumnDefinitionFiller</node>
+    <node x="8772.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.AddColumnDefinitionExtractor</node>
+    <node x="5388.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.RenameColumnDefinitionExtractor</node>
+    <node x="1275.6446428571448" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.column.InsertColumnsSegment</node>
+    <node x="6553.582142857145" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.OrderByItemSegment</node>
+    <node x="2598.0" y="1576.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.RuleDefinitionFileConstant</node>
+    <node x="0.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.SubqueryExtractor</node>
+    <node x="2242.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.ExpressionSelectItemExtractor</node>
+    <node x="3971.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.impl.LiteralExpressionExtractor</node>
+    <node x="546.0" y="1655.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.extractor.ExtractorRuleDefinitionEntityLoader</node>
+    <node x="4242.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.ddl.AlterTableStatement</node>
+    <node x="1041.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.ddl.index.IndexFiller</node>
+    <node x="4915.584761904762" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.LimitValueSegment</node>
+    <node x="4155.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.DropColumnDefinitionSegment</node>
+    <node x="3672.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.table.TableExtractor</node>
+    <node x="1018.0" y="1373.0">org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller</node>
+    <node x="3437.0000000000005" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.generic.IndexSegmentsAvailable</node>
+    <node x="634.8282142857138" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.SimpleExpressionSegment</node>
+    <node x="4805.375" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentsAvailable</node>
+    <node x="140.37380952381181" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.ComplexExpressionSegment</node>
+    <node x="4419.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dml.InsertStatement</node>
+    <node x="2790.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.DescribeStatement</node>
+    <node x="509.0" y="1803.0">org.apache.shardingsphere.core.parse.core.extractor.util.ExtractorUtils</node>
+    <node x="1694.0" y="1729.0">org.apache.shardingsphere.core.parse.core.parser.SQLParserFactory</node>
+    <node x="1489.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowIndexStatement</node>
+    <node x="1428.125" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.item.ColumnSelectItemSegment</node>
+    <node x="1504.0" y="1729.0">org.apache.shardingsphere.core.parse.core.rule.registry.filler.FillerRuleDefinition</node>
+    <node x="3979.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemsSegment</node>
+    <node x="5556.199999999999" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnFirstPositionSegment</node>
+    <node x="5243.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.assignment.SetAssignmentsSegment</node>
+    <node x="161.0" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.constraint.ConstraintDefinitionSegment</node>
+    <node x="8587.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.insert.InsertValuesExtractor</node>
+    <node x="8342.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.DropColumnDefinitionExtractor</node>
+    <node x="5005.375" y="1150.0">org.apache.shardingsphere.core.parse.sql.statement.generic.WhereSegmentAvailable</node>
+    <node x="2019.0282142857134" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dal.ShowLikeSegment</node>
+    <node x="8120.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.ColumnDefinitionsExtractor</node>
+    <node x="4466.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.impl.CommonExpressionExtractor</node>
+    <node x="2654.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.LimitExtractor</node>
+    <node x="2236.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.tcl.MySQLAutoCommitFiller</node>
+    <node x="6270.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.dal.MySQLShowLikeExtractor</node>
+    <node x="385.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.tcl.SetTransactionStatement</node>
+    <node x="3835.5000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateIndexStatement</node>
+    <node x="2958.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowCreateTableStatement</node>
+    <node x="4397.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.AddColumnDefinitionSegment</node>
+    <node x="0.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.tcl.BeginTransactionStatement</node>
+    <node x="1334.0" y="1655.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.filler.FillerRuleDefinitionEntity</node>
+    <node x="8750.5" y="918.0">org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLAddColumnDefinitionExtractor</node>
+    <node x="530.0" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.expr.ExpressionSegment</node>
+    <node x="6960.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.ModifyColumnDefinitionExtractor</node>
+    <node x="391.0" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.index.IndexSegment</node>
+    <node x="1936.0" y="1576.0">org.apache.shardingsphere.core.parse.api.SQLParser</node>
+    <node x="223.0" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.tcl.CommitStatement</node>
+    <node x="342.0" y="1803.0">org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.filler.FillerRuleEntity</node>
+    <node x="5023.582142857144" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.ParameterMarkerLimitValueSegment</node>
+    <node x="1480.0821428571448" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.generic.AliasAvailable</node>
+    <node x="3639.253928571431" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.ddl.constraint.DropPrimaryKeySegment</node>
+    <node x="4562.111547619046" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.NumberLiteralPaginationValueSegment</node>
+    <node x="7217.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.SubqueryPredicateExtractor</node>
+    <node x="1806.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.postgresql.ShowStatement</node>
+    <node x="4854.0" y="839.0">org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.ExpressionExtractor</node>
+    <node x="6331.582142857145" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.SubqueryPredicateSegment</node>
+    <node x="0.0" y="1502.0">org.apache.shardingsphere.core.parse.core.filler.impl.dml.SetAssignmentsFiller</node>
+    <node x="1761.5" y="1576.0">org.apache.shardingsphere.core.parse.hook.ParsingHook</node>
+    <node x="1098.4571428571448" y="378.0">org.apache.shardingsphere.core.parse.sql.segment.dml.item.ExpressionSelectItemSegment</node>
+    <node x="1634.8407142857134" y="249.0">org.apache.shardingsphere.core.parse.sql.segment.generic.TableAvailable</node>
+    <node x="3499.0000000000005" y="1299.0">org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateTableStatement</node>
+    <node x="1063.3282142857138" y="457.0">org.apache.shardingsphere.core.parse.sql.segment.dml.item.AggregationDistinctSelectItemSegment</node>
+    <node x="1927.0" y="1655.0">org.apache.shardingsphere.core.parse.MySQLParser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.SQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3454.0" y="585.0" />
+      <point x="5654.117647058823" y="585.0" />
+      <point x="-42.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.InsertStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentAvailable">
+      <point x="-32.5" y="-14.5" />
+      <point x="4451.5" y="1239.0" />
+      <point x="4151.670144230769" y="1239.0" />
+      <point x="69.20000000000005" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dcl.DCLStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLModifyColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.ModifyColumnDefinitionExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.DescNullOrderDirectionOrderByExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.OrderByExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="6029.75" y="893.0" />
+      <point x="6145.0" y="893.0" />
+      <point x="-35.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLAddColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.AddColumnDefinitionExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.order.GroupBySegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="70.5" y="59.0" />
+      <point x="3473.4363095238114" y="59.0" />
+      <point x="-53.958333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.table.TableExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3733.0" y="809.0" />
+      <point x="3463.7058823529414" y="809.0" />
+      <point x="9.705882352941444" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.ExpressionSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.AliasAvailable">
+      <point x="54.25" y="-14.5" />
+      <point x="1261.2071428571448" y="358.0" />
+      <point x="1494.4571428571448" y="358.0" />
+      <point x="-43.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.DeleteStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dml.DMLStatement">
+      <point x="-44.33333333333334" y="-14.5" />
+      <point x="5095.458333333334" y="1209.0" />
+      <point x="4770.125" y="1209.0" />
+      <point x="45.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.RemoveAvailable" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6240.25392857143" y="89.0" />
+      <point x="3569.019642857145" y="89.0" />
+      <point x="41.625" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.DDLStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="4273.561474358974" y="1130.0" />
+      <point x="3731.6000000000004" y="1130.0" />
+      <point x="34.59999999999991" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.constraint.ConstraintDefinitionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="266.0" y="69.0" />
+      <point x="3476.519642857145" y="69.0" />
+      <point x="-50.875" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="2250.5000000000005" y="1130.0" />
+      <point x="3662.4000000000005" y="1130.0" />
+      <point x="-34.59999999999991" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnPositionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5741.75392857143" y="119.0" />
+      <point x="3559.769642857145" y="119.0" />
+      <point x="32.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.ComplexExpressionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.ExpressionSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="243.87380952381181" y="338.0" />
+      <point x="568.5" y="338.0" />
+      <point x="-38.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.generic.AbstractSQLStatement" target="org.apache.shardingsphere.core.parse.sql.statement.SQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.extractor.ExtractorRuleDefinitionEntityLoader" target="org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.RuleDefinitionEntityLoader">
+      <point x="0.0" y="-14.5" />
+      <point x="672.0" y="1630.0" />
+      <point x="479.5" y="1630.0" />
+      <point x="65.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.AddColumnDefinitionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="4505.753928571431" y="179.0" />
+      <point x="3541.269642857145" y="179.0" />
+      <point x="13.875" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.SelectStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dml.DMLStatement">
+      <point x="-44.0" y="-14.5" />
+      <point x="4769.0" y="1239.0" />
+      <point x="4709.125" y="1239.0" />
+      <point x="-15.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.schema.SchemaExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3882.5" y="799.0" />
+      <point x="3470.176470588235" y="799.0" />
+      <point x="16.176470588235134" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.postgresql.ShowStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="1870.5000000000005" y="1269.0" />
+      <point x="2232.038461538462" y="1269.0" />
+      <point x="-18.461538461538566" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dal.ShowLikeSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.TableAvailable">
+      <point x="-36.0" y="-14.5" />
+      <point x="2055.028214285713" y="298.0" />
+      <point x="1724.0907142857134" y="298.0" />
+      <point x="29.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.IndexSegmentsAvailable">
+      <point x="-56.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.SubquerySegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemSegment">
+      <point x="36.25" y="-14.5" />
+      <point x="425.3738095238118" y="348.0" />
+      <point x="1093.107142857145" y="348.0" />
+      <point x="-59.59999999999991" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.tcl.BeginTransactionStatement" target="org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="101.5" y="1259.0" />
+      <point x="573.4691025641032" y="1259.0" />
+      <point x="-49.58333333333303" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.InsertStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dml.DMLStatement">
+      <point x="32.5" y="-14.5" />
+      <point x="4516.5" y="1279.0" />
+      <point x="4678.625" y="1279.0" />
+      <point x="-45.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.dal.MySQLFromSchemaExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="6585.5" y="669.0" />
+      <point x="3554.2941176470586" y="669.0" />
+      <point x="100.29411764705856" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.NumberLiteralPaginationValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.PaginationValueSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="4697.611547619046" y="358.0" />
+      <point x="4923.087261904764" y="358.0" />
+      <point x="-61.66666666666697" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.ColumnDefinitionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="2937.075" y="209.0" />
+      <point x="3519.6863095238114" y="209.0" />
+      <point x="-7.708333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLChangeColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="310.5" y="669.0" />
+      <point x="3353.7058823529414" y="669.0" />
+      <point x="-100.29411764705856" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dml.InsertColumnsFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="811.5" y="1472.0" />
+      <point x="1068.9666666666667" y="1472.0" />
+      <point x="-18.533333333333303" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.OrPredicateSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="2742.075" y="199.0" />
+      <point x="3516.6029761904783" y="199.0" />
+      <point x="-10.791666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.OrderByExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="6180.0" y="689.0" />
+      <point x="3541.3529411764703" y="689.0" />
+      <point x="87.35294117647027" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.insert.OnDuplicateKeyColumnsExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="5969.5" y="699.0" />
+      <point x="3534.8823529411766" y="699.0" />
+      <point x="80.88235294117658" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.SelectItemsExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3035.5" y="799.0" />
+      <point x="3437.823529411765" y="799.0" />
+      <point x="-16.176470588235134" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.ExpressionSelectItemExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="2352.0" y="759.0" />
+      <point x="3411.9411764705883" y="759.0" />
+      <point x="-42.05882352941171" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.assignment.AssignmentSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6816.082142857145" y="49.0" />
+      <point x="3581.3529761904783" y="49.0" />
+      <point x="53.958333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dml.GroupByFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="963.5" y="1482.0" />
+      <point x="1078.2333333333333" y="1482.0" />
+      <point x="-9.266666666666652" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.tcl.AutoCommitSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="2561.575" y="189.0" />
+      <point x="3513.519642857145" y="189.0" />
+      <point x="-13.875" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.AggregationSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemSegment">
+      <point x="-56.25" y="-14.5" />
+      <point x="1391.7071428571448" y="348.0" />
+      <point x="1182.507142857145" y="348.0" />
+      <point x="29.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dal.SchemaFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="1321.0" y="1472.0" />
+      <point x="1106.0333333333333" y="1472.0" />
+      <point x="18.533333333333303" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLDropPrimaryKeyExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="837.5" y="689.0" />
+      <point x="3366.6470588235297" y="689.0" />
+      <point x="-87.35294117647027" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.table.TablesExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="7716.5" y="809.0" />
+      <point x="7990.363636363636" y="809.0" />
+      <point x="-41.63636363636374" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.TableReferencesExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="7537.0" y="799.0" />
+      <point x="7969.545454545454" y="799.0" />
+      <point x="-62.454545454545496" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.DropIndexStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentAvailable">
+      <point x="-39.5" y="-14.5" />
+      <point x="4103.5" y="1249.0" />
+      <point x="4082.4701442307696" y="1249.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.SubqueryPredicateSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6432.582142857145" y="69.0" />
+      <point x="3575.1863095238114" y="69.0" />
+      <point x="47.791666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.assignment.SetAssignmentsSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5336.253928571431" y="139.0" />
+      <point x="3553.6029761904783" y="139.0" />
+      <point x="26.208333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.constraint.DropPrimaryKeySegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="3731.753928571431" y="219.0" />
+      <point x="3528.9363095238114" y="219.0" />
+      <point x="1.541666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.DMLStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="4724.375" y="1120.0" />
+      <point x="3766.2000000000007" y="1120.0" />
+      <point x="69.20000000000005" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.SchemaSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="3120.075" y="219.0" />
+      <point x="3522.769642857145" y="219.0" />
+      <point x="-4.625" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dal.FromSchemaSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="41.25" y="-14.5" />
+      <point x="6322.75392857143" y="358.0" />
+      <point x="6317.75392857143" y="358.0" />
+      <point x="6317.75392857143" y="79.0" />
+      <point x="3572.1029761904783" y="79.0" />
+      <point x="44.708333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.SelectStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentsAvailable">
+      <point x="0.0" y="-14.5" />
+      <point x="4813.0" y="1259.0" />
+      <point x="4872.875" y="1259.0" />
+      <point x="-22.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.insert.InsertValuesExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="8669.5" y="799.0" />
+      <point x="8094.454545454546" y="799.0" />
+      <point x="62.454545454545496" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.ExpressionOrderByItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.TextOrderByItemSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6447.699999999999" y="437.0" />
+      <point x="6520.449999999999" y="437.0" />
+      <point x="-47.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowIndexStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="1570.0000000000005" y="1249.0" />
+      <point x="2213.5769230769233" y="1249.0" />
+      <point x="-36.92307692307713" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.SimpleExpressionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.ExpressionSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="731.8282142857138" y="338.0" />
+      <point x="645.5" y="338.0" />
+      <point x="38.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.AscNullOrderDirectionOrderByExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.OrderByExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="6330.25" y="893.0" />
+      <point x="6215.0" y="893.0" />
+      <point x="35.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.ParameterMarkerExpressionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.SimpleExpressionSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="821.6238095238118" y="437.0" />
+      <point x="780.3282142857138" y="437.0" />
+      <point x="48.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowTablesStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.ddl.index.IndexFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.UpdateStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dml.DMLStatement">
+      <point x="-46.66666666666666" y="-14.5" />
+      <point x="4936.625" y="1229.0" />
+      <point x="4739.625" y="1229.0" />
+      <point x="15.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.DeleteStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.WhereSegmentAvailable">
+      <point x="44.333333333333314" y="-14.5" />
+      <point x="5184.125" y="1279.0" />
+      <point x="5155.375" y="1279.0" />
+      <point x="60.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.PredicateSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6081.75392857143" y="99.0" />
+      <point x="3565.9363095238114" y="99.0" />
+      <point x="38.541666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.NumberLiteralLimitValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.NumberLiteralPaginationValueSegment">
+      <point x="-58.75" y="-14.5" />
+      <point x="4772.861547619046" y="437.0" />
+      <point x="4697.611547619046" y="437.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.ColumnDefinitionFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="1478.0" y="1462.0" />
+      <point x="1115.3" y="1462.0" />
+      <point x="27.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.DeleteStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentsAvailable">
+      <point x="0.0" y="-14.5" />
+      <point x="5139.791666666667" y="1199.0" />
+      <point x="4962.875" y="1199.0" />
+      <point x="67.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.filler.FillerRuleDefinitionEntity" target="org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.RuleDefinitionEntity">
+      <point x="0.0" y="-14.5" />
+      <point x="1424.5" y="1630.0" />
+      <point x="1260.0" y="1630.0" />
+      <point x="51.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.MySQLParserEntry" target="org.apache.shardingsphere.core.parse.spi.SQLParserEntry">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.ColumnSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemSegment">
+      <point x="-65.33333333333348" y="-14.5" />
+      <point x="1460.7916666666665" y="427.0" />
+      <point x="1087.9571428571448" y="427.0" />
+      <point x="1087.9571428571448" y="358.0" />
+      <point x="1122.9071428571447" y="358.0" />
+      <point x="-29.800000000000182" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dml.SetAssignmentsFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="80.0" y="1422.0" />
+      <point x="1022.6333333333332" y="1422.0" />
+      <point x="-64.86666666666679" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnFirstPositionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnPositionSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5661.199999999999" y="358.0" />
+      <point x="5696.00392857143" y="358.0" />
+      <point x="-45.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.postgresql.ResetParameterStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="2050.5000000000005" y="1279.0" />
+      <point x="2241.2692307692314" y="1279.0" />
+      <point x="-9.230769230769056" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.tcl.SetTransactionStatement" target="org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="479.0" y="1279.0" />
+      <point x="613.1357692307693" y="1279.0" />
+      <point x="-9.91666666666697" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.OwnerAvailable" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="2039.5749999999998" y="159.0" />
+      <point x="3504.269642857145" y="159.0" />
+      <point x="-23.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.TableSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.TableAvailable">
+      <point x="14.875" y="-14.5" />
+      <point x="1939.5821428571448" y="308.0" />
+      <point x="1664.5907142857134" y="308.0" />
+      <point x="-29.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowTableStatusStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="2456.0000000000005" y="1279.0" />
+      <point x="2259.7307692307695" y="1279.0" />
+      <point x="9.230769230769056" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.SubquerySegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.ComplexExpressionSegment">
+      <point x="-36.25" y="-14.5" />
+      <point x="352.8738095238118" y="437.0" />
+      <point x="295.6238095238118" y="437.0" />
+      <point x="51.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.ddl.MySQLColumnPositionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="587.5" y="679.0" />
+      <point x="3360.176470588235" y="679.0" />
+      <point x="-93.82352941176487" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.SelectStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.WhereSegmentAvailable">
+      <point x="44.0" y="-14.5" />
+      <point x="4857.0" y="1269.0" />
+      <point x="5035.375" y="1269.0" />
+      <point x="-60.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.AliasAvailable" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="1537.5821428571448" y="119.0" />
+      <point x="3491.9363095238114" y="119.0" />
+      <point x="-35.458333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.TableSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.OwnerAvailable">
+      <point x="44.625" y="-14.5" />
+      <point x="1969.3321428571448" y="358.0" />
+      <point x="2039.5749999999998" y="358.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateIndexStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.IndexSegmentAvailable">
+      <point x="-56.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.extractor.ExtractorRuleDefinitionEntity" target="org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.RuleDefinitionEntity">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.column.ColumnSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateRightValue">
+      <point x="44.333333333333485" y="-14.5" />
+      <point x="3241.908333333333" y="348.0" />
+      <point x="3483.628928571431" y="348.0" />
+      <point x="-58.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.ModifyColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="7078.5" y="779.0" />
+      <point x="7927.909090909091" y="779.0" />
+      <point x="-104.09090909090901" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dal.FromSchemaSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.RemoveAvailable">
+      <point x="-41.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowOtherStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="3397.0000000000005" y="1229.0" />
+      <point x="2305.8846153846157" y="1229.0" />
+      <point x="55.384615384615245" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.filler.FillerRuleDefinitionEntityLoader" target="org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.RuleDefinitionEntityLoader">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.ColumnOrderByItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.TextOrderByItemSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6688.199999999999" y="437.0" />
+      <point x="6615.449999999999" y="437.0" />
+      <point x="47.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.insert.InsertColumnsExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="5740.0" y="709.0" />
+      <point x="3528.411764705882" y="709.0" />
+      <point x="74.41176470588198" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.ParameterMarkerLimitValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.ParameterMarkerPaginationValueSegment">
+      <point x="63.25" y="-14.5" />
+      <point x="5213.332142857144" y="437.0" />
+      <point x="5250.957142857144" y="437.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.ExpressionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="607.0" y="89.0" />
+      <point x="3482.6863095238114" y="89.0" />
+      <point x="-44.708333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="1152.7071428571448" y="99.0" />
+      <point x="3485.769642857145" y="99.0" />
+      <point x="-41.625" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.FunctionSelectItemExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="1923.0" y="739.0" />
+      <point x="3399.0" y="739.0" />
+      <point x="-55.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateCompareRightValue" target="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateRightValue">
+      <point x="0.0" y="-14.5" />
+      <point x="3389.075" y="358.0" />
+      <point x="3522.378928571431" y="358.0" />
+      <point x="-19.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.DropTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentsAvailable">
+      <point x="39.5" y="-14.5" />
+      <point x="4687.5" y="1249.0" />
+      <point x="4827.875" y="1249.0" />
+      <point x="-67.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.LimitExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="2713.0" y="779.0" />
+      <point x="3424.8823529411766" y="779.0" />
+      <point x="-29.117647058823422" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.LimitSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="3901.753928571431" y="209.0" />
+      <point x="3532.019642857145" y="209.0" />
+      <point x="4.625" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateBetweenRightValue" target="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateRightValue">
+      <point x="0.0" y="-14.5" />
+      <point x="3937.378928571431" y="348.0" />
+      <point x="3599.878928571431" y="348.0" />
+      <point x="58.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.DescribeStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="2864.0000000000005" y="1259.0" />
+      <point x="2278.192307692308" y="1259.0" />
+      <point x="27.692307692307622" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.impl.CommonExpressionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="4572.0" y="769.0" />
+      <point x="3489.588235294118" y="769.0" />
+      <point x="35.58823529411802" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.ParameterMarkerLimitValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.LimitValueSegment">
+      <point x="-63.25" y="-14.5" />
+      <point x="5086.832142857144" y="437.0" />
+      <point x="5027.334761904762" y="437.0" />
+      <point x="37.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.impl.LiteralExpressionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="4068.0" y="789.0" />
+      <point x="3476.6470588235297" y="789.0" />
+      <point x="22.647058823529733" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.statement.SQLStatementRuleDefinitionEntity" target="org.apache.shardingsphere.core.parse.core.rule.jaxb.entity.RuleDefinitionEntity">
+      <point x="0.0" y="-14.5" />
+      <point x="963.5" y="1630.0" />
+      <point x="1158.0" y="1630.0" />
+      <point x="-51.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.ExpressionSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemSegment">
+      <point x="-54.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.SubqueryExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="74.0" y="659.0" />
+      <point x="3347.235294117647" y="659.0" />
+      <point x="-106.76470588235316" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.AddColumnDefinitionFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="2120.5" y="1432.0" />
+      <point x="1143.1" y="1432.0" />
+      <point x="55.59999999999991" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.DropColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="8454.5" y="809.0" />
+      <point x="8073.636363636364" y="809.0" />
+      <point x="41.63636363636351" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.ColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="5270.5" y="729.0" />
+      <point x="3515.4705882352937" y="729.0" />
+      <point x="61.47058823529369" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.tcl.MySQLAutoCommitFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="2326.0" y="1422.0" />
+      <point x="1152.3666666666668" y="1422.0" />
+      <point x="64.86666666666679" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.tcl.SetAutoCommitStatement" target="org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="1031.0000000000002" y="1259.0" />
+      <point x="672.6357692307693" y="1259.0" />
+      <point x="49.58333333333303" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dal.ShowLikeSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="36.0" y="-14.5" />
+      <point x="2127.028214285713" y="358.0" />
+      <point x="2215.575" y="358.0" />
+      <point x="2215.575" y="169.0" />
+      <point x="3507.3529761904783" y="169.0" />
+      <point x="-20.041666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.index.IndexesExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.UpdateStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.WhereSegmentAvailable">
+      <point x="46.66666666666666" y="-14.5" />
+      <point x="5029.958333333334" y="1279.0" />
+      <point x="5095.375" y="1279.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.column.ColumnExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="4766.0" y="759.0" />
+      <point x="3496.0588235294117" y="759.0" />
+      <point x="42.05882352941171" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.tcl.RollbackStatement" target="org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="842.0" y="1269.0" />
+      <point x="652.8024358974362" y="1269.0" />
+      <point x="29.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dml.UpdateStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentsAvailable">
+      <point x="0.0" y="-14.5" />
+      <point x="4983.291666666667" y="1219.0" />
+      <point x="4917.875" y="1219.0" />
+      <point x="22.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.hook.SPIParsingHook" target="org.apache.shardingsphere.core.parse.hook.ParsingHook">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemsSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="4057.253928571431" y="199.0" />
+      <point x="3535.1029761904783" y="199.0" />
+      <point x="7.708333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.GroupByExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="2864.0" y="789.0" />
+      <point x="3431.3529411764703" y="789.0" />
+      <point x="-22.647058823529733" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.dal.MySQLShowLikeExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="6365.0" y="679.0" />
+      <point x="3547.823529411765" y="679.0" />
+      <point x="93.82352941176487" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.AlterTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentAvailable">
+      <point x="-39.25" y="-14.5" />
+      <point x="4281.25" y="1249.0" />
+      <point x="4117.070144230769" y="1249.0" />
+      <point x="34.59999999999991" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.SubqueryPredicateExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="7319.5" y="789.0" />
+      <point x="7948.727272727273" y="789.0" />
+      <point x="-83.27272727272725" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.column.InsertColumnsSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="1363.1446428571448" y="109.0" />
+      <point x="3488.8529761904783" y="109.0" />
+      <point x="-38.541666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.postgresql.SetStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="1728.5000000000005" y="1259.0" />
+      <point x="2222.807692307693" y="1259.0" />
+      <point x="-27.692307692307622" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.tcl.CommitStatement" target="org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="294.0" y="1269.0" />
+      <point x="593.3024358974362" y="1269.0" />
+      <point x="-29.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.ColumnDefinitionsExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="8221.0" y="819.0" />
+      <point x="8052.818181818182" y="819.0" />
+      <point x="20.818181818181756" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateInRightValue" target="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.value.PredicateRightValue">
+      <point x="0.0" y="-14.5" />
+      <point x="3597.075" y="358.0" />
+      <point x="3561.128928571431" y="358.0" />
+      <point x="19.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.IndexOrderByItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.OrderByItemSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6780.949999999999" y="358.0" />
+      <point x="6675.832142857145" y="358.0" />
+      <point x="40.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.TableSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.AliasAvailable">
+      <point x="-44.625" y="-14.5" />
+      <point x="1880.0821428571448" y="328.0" />
+      <point x="1580.7071428571448" y="328.0" />
+      <point x="43.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.ExpressionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="4932.5" y="749.0" />
+      <point x="3502.5294117647063" y="749.0" />
+      <point x="48.52941176470631" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.CommonExpressionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.complex.ComplexExpressionSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="-51.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dml.OrderByFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="661.5" y="1462.0" />
+      <point x="1059.7" y="1462.0" />
+      <point x="-27.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dml.InsertValuesFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="518.0" y="1452.0" />
+      <point x="1050.4333333333334" y="1452.0" />
+      <point x="-37.066666666666606" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.LiteralExpressionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.expr.simple.SimpleExpressionSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="577.1238095238118" y="437.0" />
+      <point x="683.3282142857138" y="437.0" />
+      <point x="-48.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.ShorthandSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.item.SelectItemSegment">
+      <point x="-53.5" y="-14.5" />
+      <point x="1684.7071428571448" y="338.0" />
+      <point x="1212.3071428571448" y="338.0" />
+      <point x="59.59999999999991" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentAvailable">
+      <point x="0.0" y="-14.5" />
+      <point x="3583.0000000000005" y="1239.0" />
+      <point x="4013.27014423077" y="1239.0" />
+      <point x="-69.20000000000005" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.DropIndexStatement" target="org.apache.shardingsphere.core.parse.sql.statement.ddl.DDLStatement">
+      <point x="39.5" y="-14.5" />
+      <point x="4182.5" y="1279.0" />
+      <point x="4273.561474358974" y="1279.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowDatabasesStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="2673.5000000000005" y="1269.0" />
+      <point x="2268.961538461539" y="1269.0" />
+      <point x="18.461538461538566" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="623.0524358974362" y="1120.0" />
+      <point x="3627.8" y="1120.0" />
+      <point x="-69.20000000000005" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowCreateTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="3059.0000000000005" y="1249.0" />
+      <point x="2287.4230769230776" y="1249.0" />
+      <point x="36.92307692307713" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.tcl.MySQLSetAutoCommitExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="6825.5" y="659.0" />
+      <point x="3560.764705882353" y="659.0" />
+      <point x="106.76470588235316" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.column.ColumnSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="3197.575" y="229.0" />
+      <point x="3525.8529761904783" y="229.0" />
+      <point x="-1.541666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.AlterTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.ddl.DDLStatement">
+      <point x="39.25" y="-14.5" />
+      <point x="4359.75" y="1279.0" />
+      <point x="4297.561474358974" y="1279.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.NumberLiteralLimitValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.LimitValueSegment">
+      <point x="58.75" y="-14.5" />
+      <point x="4890.361547619046" y="437.0" />
+      <point x="4952.834761904762" y="437.0" />
+      <point x="-37.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.ddl.DDLStatement">
+      <point x="56.0" y="-14.5" />
+      <point x="3639.0000000000005" y="1259.0" />
+      <point x="4225.561474358974" y="1259.0" />
+      <point x="-48.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateIndexStatement" target="org.apache.shardingsphere.core.parse.sql.statement.ddl.DDLStatement">
+      <point x="56.0" y="-14.5" />
+      <point x="3975.5000000000005" y="1269.0" />
+      <point x="4249.561474358974" y="1269.0" />
+      <point x="-24.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.DescNullOrderDirectionGroupByExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.GroupByExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3016.25" y="893.0" />
+      <point x="2900.0" y="893.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.DropTableStatement" target="org.apache.shardingsphere.core.parse.sql.statement.ddl.DDLStatement">
+      <point x="-39.5" y="-14.5" />
+      <point x="4608.5" y="1229.0" />
+      <point x="4321.561474358974" y="1229.0" />
+      <point x="48.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.predicate.WhereSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5160.253928571431" y="149.0" />
+      <point x="3550.519642857145" y="149.0" />
+      <point x="23.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.AddColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="8882.0" y="789.0" />
+      <point x="8115.272727272727" y="789.0" />
+      <point x="83.27272727272725" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.orderby.OrderByItemExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="9095.0" y="779.0" />
+      <point x="8136.090909090909" y="779.0" />
+      <point x="104.09090909090901" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.ddl.CreateIndexStatement" target="org.apache.shardingsphere.core.parse.sql.statement.generic.TableSegmentAvailable">
+      <point x="0.0" y="-14.5" />
+      <point x="3919.5000000000005" y="1249.0" />
+      <point x="4047.8701442307697" y="1249.0" />
+      <point x="-34.60000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.TableAvailable" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="1694.3407142857134" y="139.0" />
+      <point x="3498.1029761904783" y="139.0" />
+      <point x="-29.291666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dml.SelectItemsFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="245.0" y="1432.0" />
+      <point x="1031.9" y="1432.0" />
+      <point x="-55.59999999999991" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.DropColumnDefinitionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="4266.253928571431" y="189.0" />
+      <point x="3538.1863095238114" y="189.0" />
+      <point x="10.791666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.RenameColumnSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5539.75392857143" y="129.0" />
+      <point x="3556.6863095238114" y="129.0" />
+      <point x="29.291666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.index.IndexSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="450.5" y="79.0" />
+      <point x="3479.6029761904783" y="79.0" />
+      <point x="-47.791666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.PredicateExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3357.0" y="819.0" />
+      <point x="3450.764705882353" y="819.0" />
+      <point x="-3.235294117646845" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.column.ColumnSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.OwnerAvailable">
+      <point x="-44.333333333333485" y="-14.5" />
+      <point x="3153.241666666666" y="348.0" />
+      <point x="2081.575" y="348.0" />
+      <point x="42.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.TopSelectItemExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="2134.0" y="749.0" />
+      <point x="3405.4705882352937" y="749.0" />
+      <point x="-48.52941176470631" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnAfterPositionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.position.ColumnPositionSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5893.199999999999" y="358.0" />
+      <point x="5787.50392857143" y="358.0" />
+      <point x="45.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.ParameterMarkerPaginationValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.PaginationValueSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5250.957142857144" y="358.0" />
+      <point x="5046.420595238098" y="358.0" />
+      <point x="61.66666666666697" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.column.ColumnsExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="7872.5" y="819.0" />
+      <point x="8011.181818181818" y="819.0" />
+      <point x="-20.818181818181756" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.ColumnSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.AliasAvailable">
+      <point x="0.0" y="-14.5" />
+      <point x="1526.125" y="437.0" />
+      <point x="1570.9571428571448" y="437.0" />
+      <point x="1570.9571428571448" y="358.0" />
+      <point x="1551.9571428571448" y="358.0" />
+      <point x="14.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.generic.TableSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="-14.875" y="-14.5" />
+      <point x="1909.8321428571448" y="318.0" />
+      <point x="1624.3407142857134" y="318.0" />
+      <point x="1624.3407142857134" y="129.0" />
+      <point x="3495.019642857145" y="129.0" />
+      <point x="-32.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.TextOrderByItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.OrderByItemSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6567.949999999999" y="358.0" />
+      <point x="6594.332142857145" y="358.0" />
+      <point x="-40.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.WhereExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3199.5" y="809.0" />
+      <point x="3444.2941176470586" y="809.0" />
+      <point x="-9.705882352941444" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.api.CollectionSQLSegmentExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.SQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="8032.0" y="585.0" />
+      <point x="5738.117647058823" y="585.0" />
+      <point x="42.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.ColumnSelectItemExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="1463.5" y="719.0" />
+      <point x="3386.0588235294117" y="719.0" />
+      <point x="-67.94117647058829" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.ShowColumnsStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="1238.5000000000005" y="1229.0" />
+      <point x="2195.115384615385" y="1229.0" />
+      <point x="-55.384615384615245" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.SetStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="3237.5000000000005" y="1239.0" />
+      <point x="2296.6538461538466" y="1239.0" />
+      <point x="46.15384615384619" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.index.IndexExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="5092.0" y="739.0" />
+      <point x="3509.0" y="739.0" />
+      <point x="55.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.assignment.InsertValuesSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="1854.8407142857134" y="149.0" />
+      <point x="3501.1863095238114" y="149.0" />
+      <point x="-26.208333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.order.item.OrderByItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="6635.082142857145" y="59.0" />
+      <point x="3578.269642857145" y="59.0" />
+      <point x="50.875" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.ShorthandSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.OwnerAvailable">
+      <point x="53.5" y="-14.5" />
+      <point x="1791.7071428571448" y="348.0" />
+      <point x="1997.5749999999998" y="348.0" />
+      <point x="-42.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.statement.SQLStatementRuleDefinitionEntityLoader" target="org.apache.shardingsphere.core.parse.core.rule.jaxb.loader.RuleDefinitionEntityLoader">
+      <point x="0.0" y="-14.5" />
+      <point x="141.5" y="1630.0" />
+      <point x="349.5" y="1630.0" />
+      <point x="-65.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.column.OnDuplicateKeyColumnsSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="4753.253928571431" y="169.0" />
+      <point x="3544.3529761904783" y="169.0" />
+      <point x="16.958333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.update.SetAssignmentsExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="1067.5" y="699.0" />
+      <point x="3373.1176470588234" y="699.0" />
+      <point x="-80.88235294117658" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.ColumnSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.column.ColumnSegment">
+      <point x="65.33333333333348" y="-14.5" />
+      <point x="1591.4583333333335" y="437.0" />
+      <point x="3197.575" y="437.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.SelectItemExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="2558.0" y="769.0" />
+      <point x="3418.411764705882" y="769.0" />
+      <point x="-35.58823529411802" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.constraint.OutlinePrimaryKeyExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="3551.0" y="819.0" />
+      <point x="3457.235294117647" y="819.0" />
+      <point x="3.235294117646845" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.DropColumnDefinitionFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="1679.0" y="1452.0" />
+      <point x="1124.5666666666666" y="1452.0" />
+      <point x="37.066666666666606" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.common.expression.impl.ParameterMarkerExpressionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="4315.5" y="779.0" />
+      <point x="3483.1176470588234" y="779.0" />
+      <point x="29.117647058823422" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.limit.LimitValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.PaginationValueSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="4990.084761904762" y="358.0" />
+      <point x="4984.753928571431" y="358.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.TableFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="1200.5" y="1482.0" />
+      <point x="1096.7666666666667" y="1482.0" />
+      <point x="9.266666666666652" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.AggregationSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.generic.AliasAvailable">
+      <point x="56.25" y="-14.5" />
+      <point x="1504.2071428571448" y="358.0" />
+      <point x="1523.2071428571448" y="358.0" />
+      <point x="-14.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.item.AggregationDistinctSelectItemSegment" target="org.apache.shardingsphere.core.parse.sql.segment.dml.item.AggregationSelectItemSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="1199.3282142857138" y="437.0" />
+      <point x="1447.9571428571448" y="437.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.dml.WhereFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="380.0" y="1442.0" />
+      <point x="1041.1666666666667" y="1442.0" />
+      <point x="-46.33333333333326" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.dal.dialect.mysql.UseStatement" target="org.apache.shardingsphere.core.parse.sql.statement.dal.DALStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="1409.5000000000005" y="1239.0" />
+      <point x="2204.3461538461543" y="1239.0" />
+      <point x="-46.15384615384619" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.statement.tcl.SavepointStatement" target="org.apache.shardingsphere.core.parse.sql.statement.tcl.TCLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="671.0" y="1279.0" />
+      <point x="632.9691025641032" y="1279.0" />
+      <point x="9.91666666666697" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.order.OrderBySegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="5921.75392857143" y="109.0" />
+      <point x="3562.8529761904783" y="109.0" />
+      <point x="35.458333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.dml.pagination.PaginationValueSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="4984.753928571431" y="159.0" />
+      <point x="3547.4363095238114" y="159.0" />
+      <point x="20.041666666666515" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.item.impl.ShorthandSelectItemExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="1691.5" y="729.0" />
+      <point x="3392.5294117647063" y="729.0" />
+      <point x="-61.47058823529369" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.update.AssignmentExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="1263.0" y="709.0" />
+      <point x="3379.588235294118" y="709.0" />
+      <point x="-74.41176470588198" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.AscNullOrderDirectionGroupByExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.impl.dml.select.groupby.GroupByExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="2711.75" y="893.0" />
+      <point x="2828.0" y="893.0" />
+      <point x="-36.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.MySQLParser" target="org.apache.shardingsphere.core.parse.api.SQLParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.filler.impl.ddl.column.ModifyColumnDefinitionFiller" target="org.apache.shardingsphere.core.parse.core.filler.SQLSegmentFiller">
+      <point x="0.0" y="-14.5" />
+      <point x="1901.0" y="1442.0" />
+      <point x="1133.8333333333333" y="1442.0" />
+      <point x="46.33333333333326" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.sql.segment.ddl.column.alter.ModifyColumnDefinitionSegment" target="org.apache.shardingsphere.core.parse.sql.segment.SQLSegment">
+      <point x="0.0" y="-14.5" />
+      <point x="2343.075" y="179.0" />
+      <point x="3510.4363095238114" y="179.0" />
+      <point x="-16.958333333333485" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.parse.core.extractor.impl.ddl.column.RenameColumnDefinitionExtractor" target="org.apache.shardingsphere.core.parse.core.extractor.api.OptionalSQLSegmentExtractor">
+      <point x="0.0" y="-14.5" />
+      <point x="5509.5" y="719.0" />
+      <point x="3521.9411764705883" y="719.0" />
+      <point x="67.94117647058829" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-125.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

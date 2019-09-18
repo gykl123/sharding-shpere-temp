@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.shardingjdbc.orchestration.spring.datasource.OrchestrationSpringEncryptDataSource</OriginalElement>
+  <nodes>
+    <node x="513.0" y="740.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.handler.EncryptNamespaceHandler</node>
+    <node x="0.0" y="222.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.MasterSlaveRuleConfigurationBeanDefinition</node>
+    <node x="479.0" y="814.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.namespace.parser.RegBeanDefinitionParser</node>
+    <node x="352.0" y="222.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.MasterSlaveDataSourceBeanDefinitionParser</node>
+    <node x="572.0" y="592.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.EncryptRuleBeanDefinitionParser</node>
+    <node x="0.0" y="814.0">org.apache.shardingsphere.shardingjdbc.spring.datasource.SpringShardingDataSource</node>
+    <node x="348.0" y="296.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.constants.EncryptDataSourceBeanDefinitionParserTag</node>
+    <node x="0.0" y="74.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.constants.MasterSlaveDataSourceBeanDefinitionParserTag</node>
+    <node x="410.0" y="0.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.namespace.constants.MasterSlaveDataSourceBeanDefinitionParserTag</node>
+    <node x="262.0" y="740.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.handler.ShardingNamespaceHandler</node>
+    <node x="277.0" y="666.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.ShardingStrategyBeanDefinition</node>
+    <node x="641.0" y="518.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.ShardingStrategyBeanDefinitionParser</node>
+    <node x="355.0" y="148.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.constants.ShardingDataSourceBeanDefinitionParserTag</node>
+    <node x="0.0" y="444.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.ShardingDataSourceBeanDefinitionParser</node>
+    <node x="374.0" y="74.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.constants.LoadBalanceAlgorithmBeanDefinitionParserTag</node>
+    <node x="0.0" y="148.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.namespace.constants.ShardingDataSourceBeanDefinitionParserTag</node>
+    <node x="291.0" y="592.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.namespace.handler.OrchestrationNamespaceHandler</node>
+    <node x="0.0" y="592.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.KeyGeneratorBeanDefinitionParser</node>
+    <node x="347.0" y="370.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.constants.ShardingStrategyBeanDefinitionParserTag</node>
+    <node x="321.0" y="518.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.namespace.constants.RegistryCenterBeanDefinitionParserTag</node>
+    <node x="660.0" y="444.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.EncryptDataSourceBeanDefinitionParser</node>
+    <node x="0.0" y="296.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.namespace.constants.EncryptDataSourceBeanDefinitionParserTag</node>
+    <node x="0.0" y="370.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.datasource.OrchestrationSpringMasterSlaveDataSource</node>
+    <node x="243.0" y="814.0">org.apache.shardingsphere.shardingjdbc.spring.datasource.SpringEncryptDataSource</node>
+    <node x="0.0" y="0.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.parser.MasterSlaveLoadBalanceStrategyBeanDefinitionParser</node>
+    <node x="332.0" y="444.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.datasource.OrchestrationSpringShardingDataSource</node>
+    <node x="0.0" y="740.0">org.apache.shardingsphere.shardingjdbc.spring.datasource.SpringMasterSlaveDataSource</node>
+    <node x="0.0" y="666.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.namespace.parser.DataSourceBeanDefinitionParser</node>
+    <node x="0.0" y="518.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.datasource.OrchestrationSpringEncryptDataSource</node>
+    <node x="551.0" y="666.0">org.apache.shardingsphere.shardingjdbc.spring.namespace.handler.MasterSlaveNamespaceHandler</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.5" y="152.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

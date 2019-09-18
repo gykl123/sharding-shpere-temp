@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.shardingproxy.backend.BackendDataSource</OriginalElement>
+  <nodes>
+    <node x="1140.5" y="1438.0">org.apache.shardingsphere.shardingproxy.transport.packet.CommandPacketType</node>
+    <node x="743.0" y="2114.0">org.apache.shardingsphere.shardingproxy.frontend.context.FrontendContext</node>
+    <node x="2039.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.admin.ShowDatabasesBackendHandler</node>
+    <node x="1301.0" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.MySQLUnsupportedCommandPacket</node>
+    <node x="17.0" y="1591.0">org.apache.shardingsphere.shardingproxy.backend.BackendDataSource</node>
+    <node x="1387.0" y="1818.0">org.apache.shardingsphere.shardingproxy.config.yaml.YamlProxyServerConfiguration</node>
+    <node x="448.5" y="1591.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.SQLExecuteEngine</node>
+    <node x="1621.0" y="1591.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.MySQLBinaryStatementParameterType</node>
+    <node x="0.0" y="1818.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.recognizer.JDBCDriverURLRecognizerEngine</node>
+    <node x="685.0" y="1966.0">org.apache.shardingsphere.shardingproxy.frontend.command.CommandExecutorTask</node>
+    <node x="444.0" y="1670.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.JDBCExecuteEngine</node>
+    <node x="1593.0" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.admin.ping.MySQLComPingExecutor</node>
+    <node x="647.0" y="2040.0">org.apache.shardingsphere.shardingproxy.util.DataSourceConverter</node>
+    <node x="856.0" y="2040.0">org.apache.shardingsphere.shardingproxy.transport.mysql.constant.MySQLCapabilityFlag</node>
+    <node x="870.0" y="1517.0">org.apache.shardingsphere.shardingproxy.transport.mysql.codec.MySQLPacketCodecEngine</node>
+    <node x="560.0" y="2114.0">org.apache.shardingsphere.shardingproxy.transport.mysql.constant.MySQLServerInfo</node>
+    <node x="248.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLFloatBinaryProtocolValue</node>
+    <node x="1058.0" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.generic.MySQLUnsupportedCommandExecutor</node>
+    <node x="358.9999999999999" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.prepare.MySQLComStmtPrepareExecutor</node>
+    <node x="282.0" y="1818.0">org.apache.shardingsphere.shardingproxy.frontend.netty.FrontendChannelInboundHandler</node>
+    <node x="606.0" y="1744.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacketTypeLoader</node>
+    <node x="1303.0" y="1591.0">org.apache.shardingsphere.shardingproxy.backend.communication.DatabaseCommunicationEngineFactory</node>
+    <node x="442.0" y="1058.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.explain.ShardingCTLExplainStatement</node>
+    <node x="255.9999999999999" y="549.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.execute.MySQLComStmtExecuteExecutor</node>
+    <node x="252.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.admin.BroadcastBackendHandler</node>
+    <node x="1492.0" y="1892.0">org.apache.shardingsphere.shardingproxy.backend.executor.BackendExecutorContext</node>
+    <node x="1351.0" y="1966.0">org.apache.shardingsphere.shardingproxy.frontend.netty.ServerHandlerInitializer</node>
+    <node x="1228.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt2BinaryProtocolValue</node>
+    <node x="1138.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.response.ExecuteUpdateResponse</node>
+    <node x="1372.0" y="1517.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.auth.MySQLAuthenticationEngine</node>
+    <node x="1119.0" y="1517.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacketType</node>
+    <node x="0.0" y="2040.0">org.apache.shardingsphere.shardingproxy.context.ShardingProxyContext</node>
+    <node x="2627.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.MySQLFieldCountPacket</node>
+    <node x="646.0" y="1591.0">org.apache.shardingsphere.shardingproxy.frontend.DatabaseProtocolFrontendEngineFactory</node>
+    <node x="1008.0" y="1058.0">org.apache.shardingsphere.shardingproxy.backend.schema.TransparentSchema</node>
+    <node x="860.0" y="1058.0">org.apache.shardingsphere.shardingproxy.backend.schema.EncryptSchema</node>
+    <node x="432.0" y="2040.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.ResourceSynchronizer</node>
+    <node x="375.0" y="2114.0">org.apache.shardingsphere.shardingproxy.transport.mysql.constant.MySQLStatusFlag</node>
+    <node x="1381.5" y="1285.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.datasource.JDBCBackendDataSourceFactory</node>
+    <node x="1092.0" y="2114.0">org.apache.shardingsphere.shardingproxy.backend.schema.LogicSchemas</node>
+    <node x="152.9999999999999" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.api.QueryCommandExecutor</node>
+    <node x="1130.0" y="1966.0">org.apache.shardingsphere.shardingproxy.frontend.ConnectionIdGenerator</node>
+    <node x="1651.0" y="1517.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.recognizer.impl.MySQLRecognizer</node>
+    <node x="600.25" y="1285.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.TransactionManager</node>
+    <node x="1171.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.generic.MySQLErrPacket</node>
+    <node x="1194.0" y="1744.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValueFactory</node>
+    <node x="204.0" y="1211.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.explain.ShardingCTLExplainParser</node>
+    <node x="1352.0" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.close.MySQLComStmtCloseExecutor</node>
+    <node x="0.0" y="1670.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.datasource.JDBCBackendDataSource</node>
+    <node x="0.0" y="1892.0">org.apache.shardingsphere.shardingproxy.config.ShardingConfigurationLoader</node>
+    <node x="816.9999999999999" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.reset.MySQLComStmtResetExecutor</node>
+    <node x="564.0" y="1818.0">org.apache.shardingsphere.shardingproxy.transport.mysql.constant.MySQLNewParametersBoundFlag</node>
+    <node x="0.0" y="1744.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLBackendHandlerFactory</node>
+    <node x="934.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.admin.UnicastBackendHandler</node>
+    <node x="2368.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.MySQLBinaryResultSetRowPacket</node>
+    <node x="1462.0" y="2040.0">org.apache.shardingsphere.shardingproxy.transport.mysql.constant.MySQLColumnType</node>
+    <node x="830.0" y="1211.0">org.apache.shardingsphere.shardingproxy.error.CommonErrorCode</node>
+    <node x="2012.0" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.text.fieldlist.MySQLComFieldListPacketExecutor</node>
+    <node x="1368.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.transaction.TransactionBackendHandler</node>
+    <node x="590.0" y="1517.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.MySQLCommandExecuteEngine</node>
+    <node x="2036.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLTimeBinaryProtocolValue</node>
+    <node x="1580.9999999999998" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.initdb.MySQLComInitDbPacket</node>
+    <node x="1594.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.transaction.SkipBackendHandler</node>
+    <node x="303.0" y="1744.0">org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandlerFactory</node>
+    <node x="925.0" y="2114.0">org.apache.shardingsphere.shardingproxy.frontend.bootstrap.ShardingProxy</node>
+    <node x="771.0" y="1892.0">org.apache.shardingsphere.shardingproxy.frontend.executor.CommandExecutorSelector</node>
+    <node x="256.5" y="1591.0">org.apache.shardingsphere.shardingproxy.transport.payload.PacketPayload</node>
+    <node x="17.0" y="1438.0">org.apache.shardingsphere.shardingproxy.backend.communication.DatabaseCommunicationEngine</node>
+    <node x="300.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.response.query.QueryResponse</node>
+    <node x="1183.0" y="1058.0">org.apache.shardingsphere.shardingproxy.backend.schema.MasterSlaveSchema</node>
+    <node x="845.0" y="1132.0">org.apache.shardingsphere.shardingproxy.error.SQLErrorCode</node>
+    <node x="441.0" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.text.query.MySQLComQueryPacket</node>
+    <node x="1015.0" y="1892.0">org.apache.shardingsphere.shardingproxy.config.yaml.YamlDataSourceParameter</node>
+    <node x="868.9999999999999" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.quit.MySQLComQuitPacket</node>
+    <node x="948.25" y="979.0">org.apache.shardingsphere.shardingproxy.backend.schema.LogicSchema</node>
+    <node x="949.9999999999998" y="79.0">org.apache.shardingsphere.shardingproxy.transport.packet.CommandPacket</node>
+    <node x="1369.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.datasource.JDBCRawBackendDataSourceFactory</node>
+    <node x="1325.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.generic.MySQLEofPacket</node>
+    <node x="1686.9999999999998" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.handshake.MySQLHandshakeResponse41Packet</node>
+    <node x="1386.25" y="1132.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.wrapper.JDBCExecutorWrapper</node>
+    <node x="1118.0" y="1818.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacketFactory</node>
+    <node x="1972.0" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.prepare.MySQLComStmtPreparePacket</node>
+    <node x="498.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt8BinaryProtocolValue</node>
+    <node x="611.5" y="1438.0">org.apache.shardingsphere.shardingproxy.frontend.engine.CommandExecuteEngine</node>
+    <node x="306.0" y="1438.0">org.apache.shardingsphere.shardingproxy.frontend.spi.DatabaseProtocolFrontendEngine</node>
+    <node x="1000.0" y="1211.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLErrorCode</node>
+    <node x="1393.5" y="1438.0">org.apache.shardingsphere.shardingproxy.frontend.engine.AuthenticationEngine</node>
+    <node x="1059.0" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.MySQLComStmtExecutePacket</node>
+    <node x="3085.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.prepare.MySQLComStmtPrepareOKPacket</node>
+    <node x="1968.5" y="0.0">org.apache.shardingsphere.shardingproxy.transport.packet.DatabasePacket</node>
+    <node x="1472.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLDoubleBinaryProtocolValue</node>
+    <node x="1415.0" y="2114.0">org.apache.shardingsphere.shardingproxy.transport.codec.PacketCodec</node>
+    <node x="684.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.BackendTransactionManager</node>
+    <node x="1714.0" y="2114.0">org.apache.shardingsphere.shardingproxy.Bootstrap</node>
+    <node x="157.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.response.error.ErrorResponse</node>
+    <node x="2829.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.MySQLColumnDefinition41Packet</node>
+    <node x="1798.0" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.admin.initdb.MySQLComInitDbExecutor</node>
+    <node x="1059.5" y="1285.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.response.ExecuteResponse</node>
+    <node x="227.0" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.text.fieldlist.MySQLComFieldListPacket</node>
+    <node x="1497.0" y="1211.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.wrapper.StatementExecutorWrapper</node>
+    <node x="986.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt1BinaryProtocolValue</node>
+    <node x="0.0" y="1517.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine</node>
+    <node x="1219.0" y="1211.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.wrapper.PreparedStatementExecutorWrapper</node>
+    <node x="1966.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.generic.MySQLOKPacket</node>
+    <node x="146.0" y="1285.0">org.apache.shardingsphere.shardingproxy.backend.response.BackendResponse</node>
+    <node x="259.0" y="1892.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.handshake.MySQLAuthenticationHandler</node>
+    <node x="1262.0" y="2040.0">org.apache.shardingsphere.shardingproxy.frontend.executor.UserExecutorGroup</node>
+    <node x="1134.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.admin.UseDatabaseBackendHandler</node>
+    <node x="742.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt4BinaryProtocolValue</node>
+    <node x="658.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.explain.ShardingCTLExplainBackendHandler</node>
+    <node x="633.0" y="1211.0">org.apache.shardingsphere.shardingproxy.transport.mysql.constant.MySQLServerErrorCode</node>
+    <node x="908.0" y="1966.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.MySQLBinaryStatement</node>
+    <node x="2121.0" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.text.MySQLTextResultSetRowPacket</node>
+    <node x="972.9999999999999" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket</node>
+    <node x="1120.5" y="371.0">org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor</node>
+    <node x="1485.0" y="1744.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.MySQLCommandExecutorFactory</node>
+    <node x="313.0" y="1517.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.MySQLProtocolFrontendEngine</node>
+    <node x="1255.0" y="1892.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.callback.ProxySQLExecuteCallback</node>
+    <node x="612.9999999999999" y="470.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.admin.quit.MySQLComQuitExecutor</node>
+    <node x="1653.0" y="1818.0">org.apache.shardingsphere.shardingproxy.frontend.executor.ChannelThreadExecutorGroup</node>
+    <node x="418.0" y="1211.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.set.ShardingCTLSetParser</node>
+    <node x="518.0" y="1892.0">org.apache.shardingsphere.shardingproxy.config.yaml.YamlProxyRuleConfiguration</node>
+    <node x="214.0" y="1058.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.show.ShardingCTLShowStatement</node>
+    <node x="1975.5" y="79.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket</node>
+    <node x="232.0" y="1966.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.ConnectionStateHandler</node>
+    <node x="0.0" y="1966.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.handshake.MySQLRandomGenerator</node>
+    <node x="1735.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLStringLenencBinaryProtocolValue</node>
+    <node x="901.0" y="1744.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.callback.ProxyJDBCExecutePrepareCallback</node>
+    <node x="460.0" y="1966.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.MySQLErrPacketFactory</node>
+    <node x="1659.0" y="2040.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.MethodInvocation</node>
+    <node x="216.0" y="2040.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.handshake.MySQLAuthPluginData</node>
+    <node x="226.0" y="1132.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLParser</node>
+    <node x="0.0" y="2114.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.ConnectionStatus</node>
+    <node x="976.0" y="1591.0">org.apache.shardingsphere.shardingproxy.backend.schema.ProxyTableMetaDataConnectionManager</node>
+    <node x="0.0" y="1211.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.show.ShardingCTLShowParser</node>
+    <node x="1773.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.show.ShardingCTLShowBackendHandler</node>
+    <node x="0.0" y="549.0">org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor</node>
+    <node x="997.0" y="806.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue</node>
+    <node x="1026.5" y="623.0">org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler</node>
+    <node x="0.0" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.reset.MySQLComStmtResetPacket</node>
+    <node x="0.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.response.update.UpdateResponse</node>
+    <node x="1572.0" y="2114.0">org.apache.shardingsphere.shardingproxy.backend.response.query.QueryData</node>
+    <node x="231.0" y="979.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLStatement</node>
+    <node x="0.0" y="905.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLDateBinaryProtocolValue</node>
+    <node x="1257.0" y="2114.0">org.apache.shardingsphere.shardingproxy.backend.response.query.QueryHeader</node>
+    <node x="641.9999999999999" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.close.MySQLComStmtClosePacket</node>
+    <node x="1780.9999999999998" y="297.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.ping.MySQLComPingPacket</node>
+    <node x="1481.9999999999998" y="188.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.handshake.MySQLHandshakePacket</node>
+    <node x="846.0" y="1818.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.MySQLBinaryStatementRegistry</node>
+    <node x="468.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.query.QueryBackendHandler</node>
+    <node x="1061.0" y="2040.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.BackendConnection</node>
+    <node x="940.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.response.ExecuteQueryResponse</node>
+    <node x="863.0" y="1438.0">org.apache.shardingsphere.shardingproxy.transport.codec.DatabasePacketCodecEngine</node>
+    <node x="188.0" y="2114.0">org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.MySQLNullBitmap</node>
+    <node x="0.0" y="732.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.set.ShardingCTLSetBackendHandler</node>
+    <node x="1569.0" y="1966.0">org.apache.shardingsphere.shardingproxy.config.ShardingConfiguration</node>
+    <node x="0.0" y="1058.0">org.apache.shardingsphere.shardingproxy.backend.text.sctl.set.ShardingCTLSetStatement</node>
+    <node x="1625.0" y="1438.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.recognizer.spi.JDBCDriverURLRecognizer</node>
+    <node x="474.0" y="1364.0">org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.LocalTransactionManager</node>
+    <node x="235.0" y="1670.0">org.apache.shardingsphere.shardingproxy.transport.mysql.payload.MySQLPacketPayload</node>
+    <node x="705.0" y="1058.0">org.apache.shardingsphere.shardingproxy.backend.schema.ShardingSchema</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.api.QueryCommandExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="245.9999999999999" y="420.0" />
+      <point x="1128.7777777777778" y="420.0" />
+      <point x="-66.22222222222217" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.BackendTransactionManager" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.TransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="789.5" y="1339.0" />
+      <point x="718.75" y="1339.0" />
+      <point x="39.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLDateBinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="114.0" y="855.0" />
+      <point x="1008.1111111111111" y="855.0" />
+      <point x="-88.88888888888891" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.response.ExecuteQueryResponse" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.response.ExecuteResponse">
+      <point x="0.0" y="-14.5" />
+      <point x="1029.0" y="1339.0" />
+      <point x="1094.75" y="1339.0" />
+      <point x="-35.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.admin.UnicastBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1024.0" y="712.0" />
+      <point x="1121.9" y="712.0" />
+      <point x="-10.600000000000136" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.set.ShardingCTLSetBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="116.0" y="672.0" />
+      <point x="1037.1" y="672.0" />
+      <point x="-95.40000000000009" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.prepare.MySQLComStmtPrepareExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="475.9999999999999" y="430.0" />
+      <point x="1145.333333333333" y="430.0" />
+      <point x="-49.66666666666674" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.wrapper.PreparedStatementExecutorWrapper" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.wrapper.JDBCExecutorWrapper">
+      <point x="0.0" y="-14.5" />
+      <point x="1348.0" y="1186.0" />
+      <point x="1429.75" y="1186.0" />
+      <point x="-43.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt1BinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.wrapper.StatementExecutorWrapper" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.wrapper.JDBCExecutorWrapper">
+      <point x="0.0" y="-14.5" />
+      <point x="1598.5" y="1186.0" />
+      <point x="1516.75" y="1186.0" />
+      <point x="43.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.explain.ShardingCTLExplainStatement" target="org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="551.0" y="1033.0" />
+      <point x="376.0" y="1033.0" />
+      <point x="58.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.MySQLFieldCountPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="2718.0" y="148.0" />
+      <point x="2065.1363636363635" y="148.0" />
+      <point x="31.63636363636374" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket" target="org.apache.shardingsphere.shardingproxy.transport.packet.CommandPacket">
+      <point x="-44.5" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.close.MySQLComStmtClosePacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="745.4999999999999" y="267.0" />
+      <point x="1035.2999999999997" y="267.0" />
+      <point x="-26.700000000000045" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.admin.ShowDatabasesBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="2154.5" y="672.0" />
+      <point x="1227.9" y="672.0" />
+      <point x="95.39999999999986" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.MySQLComStmtExecutePacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1170.0" y="277.0" />
+      <point x="1070.8999999999999" y="277.0" />
+      <point x="8.899999999999977" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.initdb.MySQLComInitDbPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1670.9999999999998" y="257.0" />
+      <point x="1106.5" y="257.0" />
+      <point x="44.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLFloatBinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="363.0" y="865.0" />
+      <point x="1030.3333333333333" y="865.0" />
+      <point x="-66.66666666666674" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.transaction.SkipBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1673.5" y="692.0" />
+      <point x="1185.5" y="692.0" />
+      <point x="53.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.response.update.UpdateResponse" target="org.apache.shardingsphere.shardingproxy.backend.response.BackendResponse">
+      <point x="0.0" y="-14.5" />
+      <point x="68.5" y="1339.0" />
+      <point x="170.16666666666666" y="1339.0" />
+      <point x="-48.33333333333334" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.admin.BroadcastBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="350.0" y="682.0" />
+      <point x="1058.3000000000002" y="682.0" />
+      <point x="-74.20000000000005" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.close.MySQLComStmtCloseExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="1462.5" y="450.0" />
+      <point x="1211.5555555555557" y="450.0" />
+      <point x="16.555555555555657" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.MySQLColumnDefinition41Packet" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="2947.0" y="138.0" />
+      <point x="2075.681818181818" y="138.0" />
+      <point x="42.181818181818244" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.MySQLProtocolFrontendEngine" target="org.apache.shardingsphere.shardingproxy.frontend.spi.DatabaseProtocolFrontendEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.recognizer.impl.MySQLRecognizer" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.recognizer.spi.JDBCDriverURLRecognizer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.schema.EncryptSchema" target="org.apache.shardingsphere.shardingproxy.backend.schema.LogicSchema">
+      <point x="0.0" y="-14.5" />
+      <point x="924.0" y="1038.0" />
+      <point x="990.625" y="1038.0" />
+      <point x="-14.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.schema.MasterSlaveSchema" target="org.apache.shardingsphere.shardingproxy.backend.schema.LogicSchema">
+      <point x="0.0" y="-14.5" />
+      <point x="1260.0" y="1028.0" />
+      <point x="1047.125" y="1028.0" />
+      <point x="42.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.show.ShardingCTLShowBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1896.0" y="682.0" />
+      <point x="1206.7000000000003" y="682.0" />
+      <point x="74.20000000000005" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.text.fieldlist.MySQLComFieldListPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="324.0" y="247.0" />
+      <point x="999.6999999999999" y="247.0" />
+      <point x="-62.299999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.reset.MySQLComStmtResetPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="103.5" y="237.0" />
+      <point x="981.8999999999999" y="237.0" />
+      <point x="-80.10000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.generic.MySQLEofPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1393.5" y="148.0" />
+      <point x="2001.863636363636" y="148.0" />
+      <point x="-31.63636363636374" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.text.query.MySQLComQueryPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="531.5" y="257.0" />
+      <point x="1017.4999999999999" y="257.0" />
+      <point x="-44.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.error.CommonErrorCode" target="org.apache.shardingsphere.shardingproxy.error.SQLErrorCode">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.generic.MySQLUnsupportedCommandExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.prepare.MySQLComStmtPreparePacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="2082.0" y="237.0" />
+      <point x="1142.1" y="237.0" />
+      <point x="80.10000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.JDBCExecuteEngine" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.SQLExecuteEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.handshake.MySQLHandshakeResponse41Packet" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1816.4999999999998" y="168.0" />
+      <point x="2022.9545454545455" y="168.0" />
+      <point x="-10.545454545454504" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.explain.ShardingCTLExplainParser" target="org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.response.query.QueryResponse" target="org.apache.shardingsphere.shardingproxy.backend.response.BackendResponse">
+      <point x="0.0" y="-14.5" />
+      <point x="364.5" y="1339.0" />
+      <point x="266.83333333333337" y="1339.0" />
+      <point x="48.33333333333337" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.quit.MySQLComQuitPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="953.9999999999999" y="277.0" />
+      <point x="1053.1" y="277.0" />
+      <point x="-8.899999999999977" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.show.ShardingCTLShowParser" target="org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLParser">
+      <point x="0.0" y="-14.5" />
+      <point x="92.0" y="1186.0" />
+      <point x="251.0" y="1186.0" />
+      <point x="-50.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="44.5" y="-14.5" />
+      <point x="1106.5" y="128.0" />
+      <point x="1980.772727272727" y="128.0" />
+      <point x="-52.72727272727275" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLDoubleBinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="1593.5" y="875.0" />
+      <point x="1141.4444444444443" y="875.0" />
+      <point x="44.44444444444434" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.QueryCommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="118.0" y="524.0" />
+      <point x="199.4999999999999" y="524.0" />
+      <point x="-46.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine" target="org.apache.shardingsphere.shardingproxy.backend.communication.DatabaseCommunicationEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.MySQLUnsupportedCommandPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1431.0" y="267.0" />
+      <point x="1088.6999999999998" y="267.0" />
+      <point x="26.700000000000045" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.query.QueryBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="2.2737367544323206E-13" y="-14.5" />
+      <point x="553.0000000000002" y="692.0" />
+      <point x="1079.5" y="692.0" />
+      <point x="-53.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.schema.ShardingSchema" target="org.apache.shardingsphere.shardingproxy.backend.schema.LogicSchema">
+      <point x="0.0" y="-14.5" />
+      <point x="772.5" y="1028.0" />
+      <point x="962.375" y="1028.0" />
+      <point x="-42.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.schema.TransparentSchema" target="org.apache.shardingsphere.shardingproxy.backend.schema.LogicSchema">
+      <point x="0.0" y="-14.5" />
+      <point x="1085.5" y="1038.0" />
+      <point x="1018.875" y="1038.0" />
+      <point x="14.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.transaction.TransactionBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1471.0" y="702.0" />
+      <point x="1164.3000000000002" y="702.0" />
+      <point x="31.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.codec.MySQLPacketCodecEngine" target="org.apache.shardingsphere.shardingproxy.transport.codec.DatabasePacketCodecEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.response.ExecuteUpdateResponse" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.execute.response.ExecuteResponse">
+      <point x="0.0" y="-14.5" />
+      <point x="1231.0" y="1339.0" />
+      <point x="1165.25" y="1339.0" />
+      <point x="35.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.constant.MySQLServerErrorCode" target="org.apache.shardingsphere.shardingproxy.error.SQLErrorCode">
+      <point x="0.0" y="-14.5" />
+      <point x="721.5" y="1186.0" />
+      <point x="865.0" y="1186.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.explain.ShardingCTLExplainBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="786.0" y="702.0" />
+      <point x="1100.7000000000003" y="702.0" />
+      <point x="-31.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.generic.MySQLErrPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1238.0" y="138.0" />
+      <point x="1991.3181818181815" y="138.0" />
+      <point x="-42.181818181818244" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.MySQLCommandExecuteEngine" target="org.apache.shardingsphere.shardingproxy.frontend.engine.CommandExecuteEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.text.MySQLTextResultSetRowPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="2234.5" y="168.0" />
+      <point x="2044.0454545454545" y="168.0" />
+      <point x="10.545454545454504" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.admin.initdb.MySQLComInitDbExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="1895.0" y="430.0" />
+      <point x="1244.6666666666665" y="430.0" />
+      <point x="49.66666666666674" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt4BinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="854.0" y="885.0" />
+      <point x="1074.7777777777778" y="885.0" />
+      <point x="-22.22222222222217" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.payload.MySQLPacketPayload" target="org.apache.shardingsphere.shardingproxy.transport.payload.PacketPayload">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.prepare.MySQLComStmtPrepareOKPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="3204.5" y="128.0" />
+      <point x="2086.2272727272725" y="128.0" />
+      <point x="52.72727272727275" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.generic.MySQLOKPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket" target="org.apache.shardingsphere.shardingproxy.transport.packet.DatabasePacket">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.admin.UseDatabaseBackendHandler" target="org.apache.shardingsphere.shardingproxy.backend.text.TextProtocolBackendHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1241.0" y="712.0" />
+      <point x="1143.1" y="712.0" />
+      <point x="10.599999999999909" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.admin.quit.MySQLComQuitExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="704.9999999999999" y="440.0" />
+      <point x="1161.8888888888887" y="440.0" />
+      <point x="-33.111111111111086" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt2BinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="1340.0" y="885.0" />
+      <point x="1119.2222222222222" y="885.0" />
+      <point x="22.22222222222217" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.show.ShardingCTLShowStatement" target="org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLTimeBinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="2150.5" y="855.0" />
+      <point x="1185.888888888889" y="855.0" />
+      <point x="88.88888888888891" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.execute.MySQLComStmtExecuteExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.QueryCommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="373.9999999999999" y="524.0" />
+      <point x="292.4999999999999" y="524.0" />
+      <point x="46.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.set.ShardingCTLSetStatement" target="org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="97.0" y="1033.0" />
+      <point x="260.0" y="1033.0" />
+      <point x="-58.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.set.ShardingCTLSetParser" target="org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLParser">
+      <point x="0.0" y="-14.5" />
+      <point x="503.0" y="1186.0" />
+      <point x="351.0" y="1186.0" />
+      <point x="50.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.binary.reset.MySQLComStmtResetExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="927.4999999999999" y="450.0" />
+      <point x="1178.4444444444443" y="450.0" />
+      <point x="-16.555555555555657" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.MySQLBinaryResultSetRowPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="2487.5" y="158.0" />
+      <point x="2054.590909090909" y="158.0" />
+      <point x="21.09090909090901" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.response.error.ErrorResponse" target="org.apache.shardingsphere.shardingproxy.backend.response.BackendResponse">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.admin.ping.MySQLComPingPacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1866.4999999999998" y="247.0" />
+      <point x="1124.3" y="247.0" />
+      <point x="62.30000000000007" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.LocalTransactionManager" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.connection.TransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="569.0" y="1339.0" />
+      <point x="639.75" y="1339.0" />
+      <point x="-39.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.query.text.fieldlist.MySQLComFieldListPacketExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="2136.5" y="420.0" />
+      <point x="1261.2222222222222" y="420.0" />
+      <point x="66.22222222222217" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.MySQLCommandPacketType" target="org.apache.shardingsphere.shardingproxy.transport.packet.CommandPacketType">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.text.sctl.ShardingCTLErrorCode" target="org.apache.shardingsphere.shardingproxy.error.SQLErrorCode">
+      <point x="0.0" y="-14.5" />
+      <point x="1087.0" y="1186.0" />
+      <point x="945.0" y="1186.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLStringLenencBinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="1875.5" y="865.0" />
+      <point x="1163.6666666666667" y="865.0" />
+      <point x="66.66666666666674" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.auth.MySQLAuthenticationEngine" target="org.apache.shardingsphere.shardingproxy.frontend.engine.AuthenticationEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.datasource.JDBCRawBackendDataSourceFactory" target="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.datasource.JDBCBackendDataSourceFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.frontend.mysql.command.admin.ping.MySQLComPingExecutor" target="org.apache.shardingsphere.shardingproxy.frontend.api.CommandExecutor">
+      <point x="1.1368683772161603E-13" y="-14.5" />
+      <point x="1685.5" y="440.0" />
+      <point x="1228.1111111111109" y="440.0" />
+      <point x="33.111111111111086" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.backend.communication.jdbc.datasource.JDBCBackendDataSource" target="org.apache.shardingsphere.shardingproxy.backend.BackendDataSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLInt8BinaryProtocolValue" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.command.query.binary.execute.protocol.MySQLBinaryProtocolValue">
+      <point x="0.0" y="-14.5" />
+      <point x="610.0" y="875.0" />
+      <point x="1052.5555555555557" y="875.0" />
+      <point x="-44.44444444444434" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.handshake.MySQLHandshakePacket" target="org.apache.shardingsphere.shardingproxy.transport.mysql.packet.MySQLPacket">
+      <point x="0.0" y="-14.5" />
+      <point x="1574.4999999999998" y="158.0" />
+      <point x="2012.409090909091" y="158.0" />
+      <point x="-21.09090909090901" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="21.0" y="15.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.core.BaseShardingEngine</OriginalElement>
+  <nodes>
+    <node x="226.0" y="79.0">org.apache.shardingsphere.core.PreparedQueryShardingEngine</node>
+    <node x="140.25" y="0.0">org.apache.shardingsphere.core.BaseShardingEngine</node>
+    <node x="0.0" y="79.0">org.apache.shardingsphere.core.SimpleQueryShardingEngine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.core.SimpleQueryShardingEngine" target="org.apache.shardingsphere.core.BaseShardingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="103.0" y="54.0" />
+      <point x="180.0" y="54.0" />
+      <point x="-39.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.PreparedQueryShardingEngine" target="org.apache.shardingsphere.core.BaseShardingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="336.5" y="54.0" />
+      <point x="259.5" y="54.0" />
+      <point x="39.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

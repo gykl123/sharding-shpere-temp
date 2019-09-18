@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.OrchestrationSpringBootConfiguration</OriginalElement>
+  <nodes>
+    <node x="0.0" y="74.0">org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties</node>
+    <node x="0.0" y="740.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.util.DataSourceUtil</node>
+    <node x="0.0" y="518.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.OrchestrationSpringBootConfiguration</node>
+    <node x="0.0" y="296.0">org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties</node>
+    <node x="0.0" y="0.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties</node>
+    <node x="0.0" y="222.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties</node>
+    <node x="250.0" y="592.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.encrypt.LocalEncryptRuleCondition</node>
+    <node x="489.0" y="740.0">org.apache.shardingsphere.shardingjdbc.spring.boot.util.PropertyUtil</node>
+    <node x="232.0" y="666.0">org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.ShardingRuleCondition</node>
+    <node x="358.0" y="444.0">org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties</node>
+    <node x="0.0" y="592.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.sharding.LocalShardingRuleCondition</node>
+    <node x="169.0" y="740.0">org.apache.shardingsphere.shardingjdbc.spring.boot.util.DataSourceUtil</node>
+    <node x="0.0" y="148.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.orchestration.SpringBootOrchestrationConfigurationProperties</node>
+    <node x="450.0" y="666.0">org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.EncryptRuleCondition</node>
+    <node x="493.0" y="592.0">org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.MasterSlaveRuleCondition</node>
+    <node x="338.0" y="740.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.util.PropertyUtil</node>
+    <node x="0.0" y="444.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.common.SpringBootPropertiesConfigurationProperties</node>
+    <node x="0.0" y="666.0">org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration</node>
+    <node x="317.0" y="518.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.masterslave.LocalMasterSlaveRuleCondition</node>
+    <node x="0.0" y="370.0">org.apache.shardingsphere.shardingjdbc.orchestration.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties</node>
+    <node x="369.0" y="370.0">org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="464.5" y="254.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

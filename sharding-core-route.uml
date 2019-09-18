@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.core.route.BatchRouteUnit</OriginalElement>
+  <nodes>
+    <node x="219.0" y="410.0">org.apache.shardingsphere.core.route.router.masterslave.MasterVisitedManager</node>
+    <node x="192.0" y="484.0">org.apache.shardingsphere.core.route.SQLRouteResult</node>
+    <node x="433.0" y="410.0">org.apache.shardingsphere.core.route.router.sharding.RoutingEngineFactory</node>
+    <node x="543.0" y="484.0">org.apache.shardingsphere.core.route.type.RoutingResult</node>
+    <node x="0.0" y="410.0">org.apache.shardingsphere.core.route.router.sharding.ShardingRouterFactory</node>
+    <node x="2127.0" y="109.0">org.apache.shardingsphere.core.route.type.ignore.IgnoreRoutingEngine</node>
+    <node x="243.0" y="109.0">org.apache.shardingsphere.core.route.type.broadcast.TableBroadcastRoutingEngine</node>
+    <node x="681.0" y="109.0">org.apache.shardingsphere.core.route.type.hint.DatabaseHintRoutingEngine</node>
+    <node x="1740.0" y="109.0">org.apache.shardingsphere.core.route.type.unicast.UnicastRoutingEngine</node>
+    <node x="1929.0" y="109.0">org.apache.shardingsphere.core.route.type.standard.StandardRoutingEngine</node>
+    <node x="1168.0" y="109.0">org.apache.shardingsphere.core.route.type.broadcast.InstanceBroadcastRoutingEngine</node>
+    <node x="0.0" y="336.0">org.apache.shardingsphere.core.route.PreparedStatementRoutingEngine</node>
+    <node x="906.0" y="109.0">org.apache.shardingsphere.core.route.type.broadcast.DatabaseBroadcastRoutingEngine</node>
+    <node x="117.75" y="183.0">org.apache.shardingsphere.core.route.router.sharding.ShardingRouter</node>
+    <node x="285.0" y="336.0">org.apache.shardingsphere.core.route.router.masterslave.ShardingMasterSlaveRouter</node>
+    <node x="296.0" y="558.0">org.apache.shardingsphere.core.route.RouteUnit</node>
+    <node x="435.0" y="558.0">org.apache.shardingsphere.core.route.type.TableUnit</node>
+    <node x="0.0" y="484.0">org.apache.shardingsphere.core.route.router.masterslave.MasterSlaveRouter</node>
+    <node x="1225.5" y="0.0">org.apache.shardingsphere.core.route.type.RoutingEngine</node>
+    <node x="1425.0" y="109.0">org.apache.shardingsphere.core.route.type.broadcast.DataSourceGroupBroadcastRoutingEngine</node>
+    <node x="390.0" y="262.0">org.apache.shardingsphere.core.route.hook.SPIRoutingHook</node>
+    <node x="0.0" y="558.0">org.apache.shardingsphere.core.route.type.RoutingUnit</node>
+    <node x="532.0" y="336.0">org.apache.shardingsphere.core.route.StatementRoutingEngine</node>
+    <node x="201.0" y="262.0">org.apache.shardingsphere.core.route.router.sharding.ParsingSQLRouter</node>
+    <node x="0.0" y="262.0">org.apache.shardingsphere.core.route.router.sharding.DatabaseHintSQLRouter</node>
+    <node x="571.0" y="558.0">org.apache.shardingsphere.core.route.SQLUnit</node>
+    <node x="399.5" y="183.0">org.apache.shardingsphere.core.route.hook.RoutingHook</node>
+    <node x="481.0" y="109.0">org.apache.shardingsphere.core.route.type.complex.CartesianRoutingEngine</node>
+    <node x="151.0" y="558.0">org.apache.shardingsphere.core.route.SQLLogger</node>
+    <node x="2308.0" y="109.0">org.apache.shardingsphere.core.route.type.complex.ComplexRoutingEngine</node>
+    <node x="0.0" y="109.0">org.apache.shardingsphere.core.route.type.defaultdb.DefaultDatabaseRoutingEngine</node>
+    <node x="368.0" y="484.0">org.apache.shardingsphere.core.route.BatchRouteUnit</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.core.route.type.broadcast.InstanceBroadcastRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.defaultdb.DefaultDatabaseRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="111.5" y="49.0" />
+      <point x="1231.0454545454545" y="49.0" />
+      <point x="-55.45454545454546" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.hook.SPIRoutingHook" target="org.apache.shardingsphere.core.route.hook.RoutingHook">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.complex.CartesianRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="571.0" y="69.0" />
+      <point x="1253.2272727272727" y="69.0" />
+      <point x="-33.27272727272727" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.router.sharding.ParsingSQLRouter" target="org.apache.shardingsphere.core.route.router.sharding.ShardingRouter">
+      <point x="0.0" y="-14.5" />
+      <point x="273.0" y="237.0" />
+      <point x="213.75" y="237.0" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.hint.DatabaseHintRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="783.5" y="79.0" />
+      <point x="1264.3181818181818" y="79.0" />
+      <point x="-22.18181818181818" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.router.sharding.DatabaseHintSQLRouter" target="org.apache.shardingsphere.core.route.router.sharding.ShardingRouter">
+      <point x="0.0" y="-14.5" />
+      <point x="90.5" y="237.0" />
+      <point x="149.75" y="237.0" />
+      <point x="-32.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.complex.ComplexRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="2395.5" y="49.0" />
+      <point x="1341.9545454545455" y="49.0" />
+      <point x="55.45454545454547" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.ignore.IgnoreRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="2207.5" y="59.0" />
+      <point x="1330.8636363636365" y="59.0" />
+      <point x="44.363636363636374" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.broadcast.DatabaseBroadcastRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="1027.0" y="89.0" />
+      <point x="1275.409090909091" y="89.0" />
+      <point x="-11.090909090909086" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.standard.StandardRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="2018.0" y="69.0" />
+      <point x="1319.7727272727273" y="69.0" />
+      <point x="33.27272727272728" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.broadcast.DataSourceGroupBroadcastRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="1572.5" y="89.0" />
+      <point x="1297.590909090909" y="89.0" />
+      <point x="11.090909090909093" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.unicast.UnicastRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="1824.5" y="79.0" />
+      <point x="1308.6818181818182" y="79.0" />
+      <point x="22.181818181818187" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.route.type.broadcast.TableBroadcastRoutingEngine" target="org.apache.shardingsphere.core.route.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="352.0" y="59.0" />
+      <point x="1242.1363636363637" y="59.0" />
+      <point x="-44.36363636363637" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="179.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

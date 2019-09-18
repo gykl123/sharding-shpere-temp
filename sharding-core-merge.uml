@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.shardingsphere.core.merge.MergedResult</OriginalElement>
+  <nodes>
+    <node x="0.0" y="553.0">org.apache.shardingsphere.core.merge.dql.DQLMergeEngine</node>
+    <node x="1273.0" y="168.0">org.apache.shardingsphere.core.merge.dql.groupby.GroupByMemoryMergedResult</node>
+    <node x="1849.375" y="89.0">org.apache.shardingsphere.core.merge.dal.show.LocalMergedResultAdapter</node>
+    <node x="452.0" y="627.0">org.apache.shardingsphere.core.merge.MergeEngineFactory</node>
+    <node x="252.0" y="321.0">org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AggregationUnit</node>
+    <node x="227.0" y="400.0">org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AverageAggregationUnit</node>
+    <node x="1415.2999188311692" y="89.0">org.apache.shardingsphere.core.merge.dql.common.MemoryMergedResult</node>
+    <node x="1851.4837662337663" y="247.0">org.apache.shardingsphere.core.merge.dal.show.ShowTableStatusMergedResult</node>
+    <node x="365.0" y="553.0">org.apache.shardingsphere.core.merge.dal.DALMergeEngine</node>
+    <node x="224.0" y="168.0">org.apache.shardingsphere.core.merge.dql.orderby.OrderByStreamMergedResult</node>
+    <node x="1398.4837662337663" y="247.0">org.apache.shardingsphere.core.merge.dal.show.ShowTablesMergedResult</node>
+    <node x="655.0" y="627.0">org.apache.shardingsphere.core.merge.dql.groupby.GroupByValue</node>
+    <node x="0.0" y="627.0">org.apache.shardingsphere.core.merge.dql.common.MemoryQueryResultRow</node>
+    <node x="1513.0" y="168.0">org.apache.shardingsphere.core.merge.dal.show.LogicTablesMergedResult</node>
+    <node x="1956.0" y="168.0">org.apache.shardingsphere.core.merge.dal.show.ShowShardingCTLMergedResult</node>
+    <node x="431.0" y="400.0">org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AccumulationAggregationUnit</node>
+    <node x="162.0" y="701.0">org.apache.shardingsphere.core.merge.dql.orderby.CompareUtil</node>
+    <node x="227.0" y="627.0">org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AggregationUnitFactory</node>
+    <node x="547.0" y="474.0">org.apache.shardingsphere.core.merge.dql.groupby.GroupByRowComparator</node>
+    <node x="1436.4837662337663" y="0.0">org.apache.shardingsphere.core.merge.MergedResult</node>
+    <node x="680.0" y="168.0">org.apache.shardingsphere.core.merge.dql.pagination.RowNumberDecoratorMergedResult</node>
+    <node x="138.54991883116918" y="89.0">org.apache.shardingsphere.core.merge.dql.common.StreamMergedResult</node>
+    <node x="0.0" y="701.0">org.apache.shardingsphere.core.merge.dql.orderby.OrderByValue</node>
+    <node x="1722.0" y="168.0">org.apache.shardingsphere.core.merge.dal.show.ShowDatabasesMergedResult</node>
+    <node x="195.5" y="474.0">org.apache.shardingsphere.core.merge.MergeEngine</node>
+    <node x="0.0" y="400.0">org.apache.shardingsphere.core.merge.dql.groupby.aggregation.ComparableAggregationUnit</node>
+    <node x="986.5142045454545" y="247.0">org.apache.shardingsphere.core.merge.dal.show.ShowIndexMergedResult</node>
+    <node x="952.0" y="168.0">org.apache.shardingsphere.core.merge.dql.pagination.TopAndRowNumberDecoratorMergedResult</node>
+    <node x="158.0" y="553.0">org.apache.shardingsphere.core.merge.TransparentMergeEngine</node>
+    <node x="1095.8587662337663" y="89.0">org.apache.shardingsphere.core.merge.dal.show.ShowOtherMergedResult</node>
+    <node x="0.0" y="168.0">org.apache.shardingsphere.core.merge.dql.iterator.IteratorStreamMergedResult</node>
+    <node x="454.0" y="168.0">org.apache.shardingsphere.core.merge.dql.pagination.LimitDecoratorMergedResult</node>
+    <node x="222.0" y="247.0">org.apache.shardingsphere.core.merge.dql.groupby.GroupByStreamMergedResult</node>
+    <node x="716.7337662337663" y="89.0">org.apache.shardingsphere.core.merge.dql.common.DecoratorMergedResult</node>
+    <node x="1608.4837662337663" y="247.0">org.apache.shardingsphere.core.merge.dal.show.ShowCreateTableMergedResult</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AccumulationAggregationUnit" target="org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AggregationUnit">
+      <point x="0.0" y="-14.5" />
+      <point x="540.0" y="375.0" />
+      <point x="363.66666666666663" y="375.0" />
+      <point x="44.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowShardingCTLMergedResult" target="org.apache.shardingsphere.core.merge.dal.show.LocalMergedResultAdapter">
+      <point x="-57.25" y="-14.5" />
+      <point x="2013.25" y="143.0" />
+      <point x="1997.125" y="143.0" />
+      <point x="49.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.groupby.aggregation.ComparableAggregationUnit" target="org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AggregationUnit">
+      <point x="0.0" y="-14.5" />
+      <point x="103.5" y="375.0" />
+      <point x="274.3333333333333" y="375.0" />
+      <point x="-44.666666666666686" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.iterator.IteratorStreamMergedResult" target="org.apache.shardingsphere.core.merge.dql.common.StreamMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="102.0" y="143.0" />
+      <point x="178.29991883116918" y="143.0" />
+      <point x="-39.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.common.MemoryMergedResult" target="org.apache.shardingsphere.core.merge.MergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1497.7999188311692" y="69.0" />
+      <point x="1494.4837662337663" y="69.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.pagination.LimitDecoratorMergedResult" target="org.apache.shardingsphere.core.merge.dql.common.DecoratorMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="557.0" y="143.0" />
+      <point x="746.2337662337663" y="143.0" />
+      <point x="-59.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.common.DecoratorMergedResult" target="org.apache.shardingsphere.core.merge.MergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="805.2337662337663" y="59.0" />
+      <point x="1461.3409090909092" y="59.0" />
+      <point x="-33.14285714285711" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowIndexMergedResult" target="org.apache.shardingsphere.core.merge.dal.show.LogicTablesMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1078.0142045454545" y="217.0" />
+      <point x="1536.625" y="217.0" />
+      <point x="-70.875" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.LogicTablesMergedResult" target="org.apache.shardingsphere.core.merge.dql.common.MemoryMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1607.5" y="143.0" />
+      <point x="1539.0499188311692" y="143.0" />
+      <point x="41.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.pagination.RowNumberDecoratorMergedResult" target="org.apache.shardingsphere.core.merge.dql.common.DecoratorMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.orderby.OrderByStreamMergedResult" target="org.apache.shardingsphere.core.merge.dql.common.StreamMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="329.0" y="143.0" />
+      <point x="257.7999188311692" y="143.0" />
+      <point x="39.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.common.StreamMergedResult" target="org.apache.shardingsphere.core.merge.MergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="218.04991883116918" y="49.0" />
+      <point x="1444.7694805194806" y="49.0" />
+      <point x="-49.71428571428578" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowDatabasesMergedResult" target="org.apache.shardingsphere.core.merge.MergedResult">
+      <point x="-53.5" y="-14.5" />
+      <point x="1775.5" y="143.0" />
+      <point x="1800.5142045454545" y="143.0" />
+      <point x="1800.5142045454545" y="69.0" />
+      <point x="1511.055194805195" y="69.0" />
+      <point x="16.571428571428555" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowTablesMergedResult" target="org.apache.shardingsphere.core.merge.dal.show.LogicTablesMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1493.4837662337663" y="227.0" />
+      <point x="1583.875" y="227.0" />
+      <point x="-23.625" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowDatabasesMergedResult" target="org.apache.shardingsphere.core.merge.dal.show.LocalMergedResultAdapter">
+      <point x="53.5" y="-14.5" />
+      <point x="1882.5" y="143.0" />
+      <point x="1898.625" y="143.0" />
+      <point x="-49.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.groupby.GroupByStreamMergedResult" target="org.apache.shardingsphere.core.merge.dql.orderby.OrderByStreamMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowCreateTableMergedResult" target="org.apache.shardingsphere.core.merge.dal.show.LogicTablesMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1719.9837662337663" y="227.0" />
+      <point x="1631.125" y="227.0" />
+      <point x="23.625" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AverageAggregationUnit" target="org.apache.shardingsphere.core.merge.dql.groupby.aggregation.AggregationUnit">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.TransparentMergeEngine" target="org.apache.shardingsphere.core.merge.MergeEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.LocalMergedResultAdapter" target="org.apache.shardingsphere.core.merge.MergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1947.875" y="59.0" />
+      <point x="1527.6266233766235" y="59.0" />
+      <point x="33.14285714285711" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.pagination.TopAndRowNumberDecoratorMergedResult" target="org.apache.shardingsphere.core.merge.dql.common.DecoratorMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1102.5" y="143.0" />
+      <point x="864.2337662337663" y="143.0" />
+      <point x="59.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.DQLMergeEngine" target="org.apache.shardingsphere.core.merge.MergeEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="69.0" y="528.0" />
+      <point x="214.16666666666666" y="528.0" />
+      <point x="-37.33333333333334" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowShardingCTLMergedResult" target="org.apache.shardingsphere.core.merge.MergedResult">
+      <point x="57.25" y="-14.5" />
+      <point x="2127.75" y="143.0" />
+      <point x="2102.924918831169" y="143.0" />
+      <point x="2102.924918831169" y="49.0" />
+      <point x="1544.1980519480521" y="49.0" />
+      <point x="49.714285714285666" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowOtherMergedResult" target="org.apache.shardingsphere.core.merge.MergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1188.3587662337663" y="69.0" />
+      <point x="1477.912337662338" y="69.0" />
+      <point x="-16.571428571428555" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dql.groupby.GroupByMemoryMergedResult" target="org.apache.shardingsphere.core.merge.dql.common.MemoryMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1383.0" y="143.0" />
+      <point x="1456.5499188311692" y="143.0" />
+      <point x="-41.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.DALMergeEngine" target="org.apache.shardingsphere.core.merge.MergeEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="433.5" y="528.0" />
+      <point x="288.83333333333337" y="528.0" />
+      <point x="37.33333333333337" y="14.5" />
+    </edge>
+    <edge source="org.apache.shardingsphere.core.merge.dal.show.ShowTableStatusMergedResult" target="org.apache.shardingsphere.core.merge.dal.show.LogicTablesMergedResult">
+      <point x="0.0" y="-14.5" />
+      <point x="1962.9837662337663" y="217.0" />
+      <point x="1678.375" y="217.0" />
+      <point x="70.875" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
